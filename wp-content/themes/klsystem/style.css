@@ -126,6 +126,7 @@ header {
 
 .request {
   background: -moz-linear-gradient(-90deg, rgba(140, 198, 63, 0) 70%, #8cc63f);
+  background: linear-gradient(180deg, rgba(140, 198, 63, 0) 70%, #8cc63f);
   width: 540px;
   border: 2px solid #8cc63f;
   font-size: 54px;
