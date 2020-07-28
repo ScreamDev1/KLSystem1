@@ -16,7 +16,7 @@
             <div class="container__header">
                 <div class="navbar-wrap">
                     <div class="logo navbar__logo">
-                        <img src="<?php echo get_stylesheet_directory_uri() ?>./assets/images/logo.png" alt="logo">
+                        <img src="<?php echo get_stylesheet_directory_uri() ?>./assets/images/logo.svg" alt="logo">
                     </div>
                     <div class="navbar__info">
                         <a class="navbar__email" href="mailto:mail@klsys.ru">mail@klsys.ru</a>
@@ -26,11 +26,11 @@
                     </div>
                     <div class="navbar__telegram">
                         <a href="#">
-                            <img src="<?php echo get_stylesheet_directory_uri() ?>./assets/images/telegram.png" alt="telegram">
+                            <img src="<?php echo get_stylesheet_directory_uri() ?>./assets/images/telegram.svg" alt="telegram">
                         </a>
                     </div>
                     <button class="menu-button">
-                        <img src="<?php echo get_stylesheet_directory_uri() ?>./assets/images/menu.png" alt="">
+                        <img src="<?php echo get_stylesheet_directory_uri() ?>./assets/images/menu.svg" alt="">
                     </button>
                 </div>
             </div>
