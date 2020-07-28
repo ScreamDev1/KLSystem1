@@ -1,0 +1,6 @@
+Название бд
+kl_system_bd
+Логин для WP
+kl_system_admin
+Пароль для WP
+9WKpt&z&TQ2D9ca*qw

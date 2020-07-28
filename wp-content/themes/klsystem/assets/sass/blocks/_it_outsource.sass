@@ -1,0 +1,79 @@
+.it_outsource
+  background: #070618 url("assets/images/background.png") repeat
+  background-blend-mode: normal
+  color: #fff
+  min-height: 700px
+  padding-top: 140px
+
+  h1
+    font-size: 54px
+    font-weight: 500
+    line-height: 1.6em
+    margin: 0
+  &__links
+    text-decoration: none
+    color: #fff
+    border-bottom: 2px solid #00acee
+    &:hover
+      background: linear-gradient(360deg,#00acee 30%,transparent 30%)
+
+.request
+  background: -moz-linear-gradient(-90deg,rgba(140,198,63,0) 70%,rgba(140,198,63,1))
+  width: 540px
+  border: 2px solid rgba(140,198,63,1)
+  font-size: 54px
+  height: 100px
+  color: #fff
+  margin-top: 130px
+  +medium
+
+.service
+  font-size: 100px
+  font-weight: 500
+  margin-top: 200px
+
+.service-description
+  font-size: 34px
+  margin-top: 85px
+  line-height: 1.4em
+
+.service-cells
+  display: flex
+  flex-direction: row
+  flex-wrap: wrap
+  margin-top: 140px
+
+
+.cell
+  background : -moz-linear-gradient(50% 0% -90deg,rgba(0, 173, 239, 0) 42.74%,rgba(0, 173, 239, 0.86) 91.91%,rgba(0, 173, 239, 1) 100%)
+  background : -webkit-linear-gradient(-90deg, rgba(0, 173, 239, 0) 42.74%, rgba(0, 173, 239, 0.86) 91.91%, rgba(0, 173, 239, 1) 100%)
+  background : -webkit-gradient(linear,50% 0% ,50% 100% ,color-stop(0.4274,rgba(0, 173, 239, 0) ),color-stop(0.9191,rgba(0, 173, 239, 0.86) ),color-stop(1,rgba(0, 173, 239, 1) ))
+  background : -o-linear-gradient(-90deg, rgba(0, 173, 239, 0) 42.74%, rgba(0, 173, 239, 0.86) 91.91%, rgba(0, 173, 239, 1) 100%)
+  background : -ms-linear-gradient(-90deg, rgba(0, 173, 239, 0) 42.74%, rgba(0, 173, 239, 0.86) 91.91%, rgba(0, 173, 239, 1) 100%)
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ADEF', endColorstr='#00ADEF' ,GradientType=0)"
+  background : linear-gradient(180deg, rgba(0, 173, 239, 0) 42.74%, rgba(0, 173, 239, 0.86) 91.91%, rgba(0, 173, 239, 1) 100%)
+  display: flex
+  flex-direction: column
+  justify-content: space-between
+  border: 2px solid #00acee
+  width: 398px
+  height: 550px
+  margin-right: 58px
+  margin-bottom: 77px
+  padding: 70px 40px 50px 40px
+  &:nth-child(3n)
+    margin-right: 0
+
+  &__header
+    font-size: 40px
+    font-weight: 500
+    color: #00acee
+    display: block
+    text-align: left
+
+  &__description
+    display: block
+    font-size: 22px
+  &__more
+    color: #fff
+    text-decoration: none
