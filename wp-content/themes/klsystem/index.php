@@ -139,7 +139,9 @@
             </div>
         </div>
     </section>
-
+    <div class="barcode">
+        <img src="<?php echo get_stylesheet_directory_uri() ?>./assets/images/barcode.png" alt="">
+    </div>
     <section id="zabbix">
         <div class="container">
 

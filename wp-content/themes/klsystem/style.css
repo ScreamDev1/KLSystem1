@@ -13,6 +13,12 @@
   margin: auto;
 }
 
+.barcode {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+
 @font-face {
   font-family: "Montserrat Regular";
   src: url("../fonts/Montserrat-Regular.eot");
