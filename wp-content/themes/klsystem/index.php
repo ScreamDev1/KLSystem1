@@ -142,9 +142,61 @@
     <div class="barcode">
         <img src="<?php echo get_stylesheet_directory_uri() ?>./assets/images/barcode.png" alt="">
     </div>
-    <section id="zabbix">
+    <section class="zabbix section-info">
         <div class="container">
-
+            <div class="section-heading">
+                <span class="section-heading__main">
+                    Zabbix
+                </span>
+                <span class="section-heading__sub">
+                    / Системы мониторинга /
+                </span>
+            </div>
+            <div class="section-description">
+                Zabbix - универсальное рееорпоративного уровня <br>
+                для мониторинга миллионов метрик с десятков тысяч серверов,<br>
+                виртуальных машин и сетевых устройств в режиме реального времени.<br>
+            </div>
+            <div class="features">
+                <div class="features__item">
+                    <span class="features__item__header">
+                        Сбор метрики с устройств
+                    </span>
+                    <span class="features__item__desc">
+                        Мониторинг любой IT
+                        инфраструктуры, облачных
+                        ресурсов, сервисов,
+                        приложений
+                    </span>
+                </div>
+                <div class="features__item">
+                    <span class="features__item__header">
+                        Определение гибких порогов
+                    </span>
+                    <span class="features__item__desc">
+                        Автоматическое
+                        обнаружение состояний
+                        проблем во входящем
+                        потоке метрик. Отсутствие
+                        необходимости постоянно
+                        следить за входящими
+                    </span>
+                </div>
+                <div class="features__item">
+                    <span class="features__item__header">
+                        Оповещения при проблемах
+                    </span>
+                    <span class="features__item__desc">
+                        Оповещение ответственных
+                        персон о событиях
+                        с использованием разных
+                        каналов
+                    </span>
+                </div>
+            </div>
+            <div class="details-button green-on-white">
+                Подробнее
+            </div>
         </div>
     </section>
 
