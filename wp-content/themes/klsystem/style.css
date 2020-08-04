@@ -492,4 +492,15 @@ header {
   box-shadow: none;
 }
 
+.network {
+  background: #070618 url("assets/images/background.png") repeat;
+  background-blend-mode: normal;
+  color: #fff;
+  padding-bottom: 23px;
+}
+
+.videosystem .features__item {
+  max-width: 275px;
+}
+
 /*# sourceMappingURL=style.css.map */

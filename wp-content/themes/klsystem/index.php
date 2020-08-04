@@ -445,17 +445,107 @@
         <img src="<?php echo get_stylesheet_directory_uri() ?>./assets/images/barcode-white.png" alt="">
     </div>
 
-    <section id="network">
+    <section class="network section-info">
         <div class="container">
-
+            <div class="section-heading">
+                <span class="section-heading__main">
+                    Сети передачи данных
+                </span>
+            </div>
+            <div class="section-description">
+                Сетевая инфраструктура является одной из наиболее важных и критичных
+                для работы любого предприятия. Темпы роста объема данных и скоростей
+                их передачи диктуют технологическое развитие, деление на категории
+                и усложнение архитектуры современных сетей и принципов их построения.
+                Практически не осталось бизнес приложений, которые не используют
+                в своей работе сетевые протоколы передачи данных.
+            </div>
+            <div class="service-cells">
+                <div class="cell">
+                    <span class="cell__header">Структуриро-ванные касательные системы</span>
+                    <span class="cell__description">
+                        Краткое описание услуги. Краткое описание услуги. Краткое описание услуги
+                    </span>
+                    <a href="#" class="cell__more">Подробнее...</a>
+                </div>
+                <div class="cell">
+                    <span class="cell__header">Волоконно-Оптические Линии Связи</span>
+                    <span class="cell__description">
+                        Краткое описание услуги. Краткое описание услуги. Краткое описание услуги. Краткое описание услуги
+                    </span>
+                    <a href="#" class="cell__more">Подробнее...</a>
+                </div>
+                <div class="cell">
+                    <span class="cell__header">Системы контроля учета доступа</span>
+                    <span class="cell__description">
+                        Краткое описание услуги. Краткое описание услуги. Краткое описание услуги. Краткое описание услуги
+                    </span>
+                    <a href="#" class="cell__more">Подробнее...</a>
+                </div>
+            </div>
         </div>
     </section>
 
-    <sesction id="videosystem">
-        <div class="container">
+    <div class="barcode">
+        <img src="<?php echo get_stylesheet_directory_uri() ?>./assets/images/barcode.png" alt="">
+    </div>
 
+    <section class="videosystem section-info">
+        <div class="container">
+            <div class="section-heading">
+                <span class="section-heading__main">
+                    Видеонаблюдение
+                </span>
+            </div>
+            <div class="section-description">
+                Системы видеонаблюдения – важнейшая составная часть комплекса технических
+                средств безопасности. Однако эффективной система видеонаблюдения окажется
+                только в случае, если все её компоненты будут иметь технические параметры,
+                адекватные решаемым задачам.
+            </div>
+            <div class="features">
+                <div class="features__item">
+                    <span class="features__item__header">
+                        Удаленный контроль
+                    </span>
+                    <span class="features__item__desc">
+                        Удаленный контроль офиса с ПК или мобильного устройства к работе
+                    </span>
+                </div>
+                <div class="features__item">
+                    <span class="features__item__header">
+                        Высокое качество
+                    </span>
+                    <span class="features__item__desc">
+                        Разрешение FullHD для максимального качества изображения
+                    </span>
+                </div>
+                <div class="features__item">
+                    <span class="features__item__header">
+                        Уведомления
+                    </span>
+                    <span class="features__item__desc">
+                        Уведомления о событиях в кадре для предупреждения противоправных действий
+                    </span>
+                </div>
+                <div class="features__item">
+                    <span class="features__item__header">
+                        Полный архив
+                    </span>
+                    <span class="features__item__desc">
+                        Постоянная запись, чтобы собрать полный видеоархив
+                    </span>
+                </div>
+            </div>
+            <div class="details-button green-on-white">
+                Подробнее
+            </div>
         </div>
-    </sesction>
+    </section>
+
+    <div class="barcode dark-bg">
+        <img src="<?php echo get_stylesheet_directory_uri() ?>./assets/images/barcode-white.png" alt="">
+    </div>
 
     <footer id="footer" class="footer">
         <div class="container">
