@@ -329,17 +329,121 @@
         <img src="<?php echo get_stylesheet_directory_uri() ?>./assets/images/barcode-white.png" alt="">
     </div>
 
-    <section id="ip_telephone">
+    <section class="ip_telephone section-info">
         <div class="container">
-
+            <div class="section-heading">
+                <span class="section-heading__main">
+                    IP телефония
+                </span>
+            </div>
+            <div class="section-description">
+                Требуется телефон в офис?
+                <br><br>
+                Хотите сократить расходы на связь? Не знаете, как организовать работу
+                удаленных сотрудников? IP-телефония - это современный гибкий сервис,
+                который решает большое число бизнес-задач.
+            </div>
+            <div class="features">
+                <div class="features__item">
+                    <span class="features__item__header">
+                        Всегда на связи
+                    </span>
+                    <span class="features__item__desc">
+                        IP-телефония позволяет быть на
+                        связи всегда и для всех благодаря
+                        многоканальным номерам
+                    </span>
+                </div>
+                <div class="features__item">
+                    <span class="features__item__header">
+                        Все вместе
+                    </span>
+                    <span class="features__item__desc">
+                        Конференции связи с несколькими людьми одновременно
+                    </span>
+                </div>
+                <div class="features__item">
+                    <span class="features__item__header">
+                        Четкий звук
+                    </span>
+                    <span class="features__item__desc">
+                        Защищает от помех, качественно передает голос
+                    </span>
+                </div>
+                <div class="features__item">
+                    <span class="features__item__header">
+                        Помнит все
+                    </span>
+                    <span class="features__item__desc">
+                        Ведет статистику разговоров, может осуществлять запись звонков
+                    </span>
+                </div>
+            </div>
+            <div class="details-button green-on-white">
+                Подробнее
+            </div>
         </div>
     </section>
 
-    <section id="sites">
-        <div class="container">
+    <div class="barcode">
+        <img src="<?php echo get_stylesheet_directory_uri() ?>./assets/images/barcode.png" alt="">
+    </div>
 
+    <section class="sites section-info">
+        <div class="container">
+            <div class="section-heading">
+                <span class="section-heading__main">
+                    Сайты
+                </span>
+            </div>
+            <div class="section-description">
+                С каждым годом объем электронной торговли
+                растет темпами, которые недоступны традиционной
+                экономике. Осознанный подход к разработке интернет-магазина
+                позволяет добиться максимума отдачи от каждого реализованного проекта.
+            </div>
+            <div class="features">
+                <div class="features__item">
+                    <span class="features__item__header">
+                        Обслуживание
+                    </span>
+                    <span class="features__item__desc">
+                        Мониторинг любой IT
+                        инфраструктуры, облачных
+                        ресурсов, сервисов,
+                        приложений
+                    </span>
+                </div>
+                <div class="features__item">
+                    <span class="features__item__header">
+                        Создание
+                    </span>
+                    <span class="features__item__desc">
+                        Автоматическое
+                        обнаружение состояний
+                        проблем во входящем
+                        потоке метрик. Отсутствие
+                        необходимости
+                    </span>
+                </div>
+                <div class="features__item">
+                    <span class="features__item__header">
+                        Продвижение
+                    </span>
+                    <span class="features__item__desc">
+                        Оповещение ответственных персон о событияхс использованием разных каналов
+                    </span>
+                </div>
+            </div>
+            <div class="details-button green-on-white">
+                Подробнее
+            </div>
         </div>
     </section>
+
+    <div class="barcode dark-bg">
+        <img src="<?php echo get_stylesheet_directory_uri() ?>./assets/images/barcode-white.png" alt="">
+    </div>
 
     <section id="network">
         <div class="container">
