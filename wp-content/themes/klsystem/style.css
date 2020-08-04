@@ -26,7 +26,7 @@
 
 .section-info {
   padding-top: 125px;
-  padding-bottom: 130px;
+  padding-bottom: 100px;
 }
 
 @media (max-width: 1500px) {
@@ -409,6 +409,7 @@ header {
 .zabbix {
   background: none;
   color: #000;
+  padding-bottom: 130px;
 }
 
 .section-heading__main {
@@ -470,6 +471,10 @@ header {
 }
 .products_1c .cell__header {
   color: #8CC63F;
+}
+
+.wtware .features__item {
+  max-width: 275px;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -263,11 +263,71 @@
         <img src="<?php echo get_stylesheet_directory_uri() ?>./assets/images/barcode.png" alt="">
     </div>
 
-    <section class="wtware">
+    <section class="wtware section-info">
         <div class="container">
-
+            <div class="section-heading">
+                <span class="section-heading__main">
+                    WtWare
+                </span>
+                <span class="section-heading__sub">
+                    / ТОНКИЕ КЛИЕНТЫ /
+                </span>
+            </div>
+            <div class="section-description">
+                Готовый комплект программного обеспечения, которое
+                позволяет создавать из компьютеров тонкие клиенты
+                для подключения к серверу по протоколу RDP. Компьютер
+                может быть любым, подойдет старый маломощный системный
+                блок и миниатюрный новый компьютер в корпусе mini-ITX,
+                который можно закрепить на задней крышке монитора.
+            </div>
+            <div class="features">
+                <div class="features__item">
+                    <span class="features__item__header">
+                        Загружается по сети
+                    </span>
+                    <span class="features__item__desc">
+                        Подключите новый компьютер к сети,
+                        укажите в БИОСе загрузку по сети
+                        — и тонкий клиент готов к работе
+                    </span>
+                </div>
+                <div class="features__item">
+                    <span class="features__item__header">
+                        Просто настроить
+                    </span>
+                    <span class="features__item__desc">
+                        В дистрибутив WTware включены службы для загрузки по сети.
+                    </span>
+                </div>
+                <div class="features__item">
+                    <span class="features__item__header">
+                        Работает с Server 2019
+                    </span>
+                    <span class="features__item__desc">
+                        Работает на Windows Server от 2000 до 2019,
+                        Hyper-V VDI, удаленное управление Windows,
+                        xrdp на Linux, Mac Terminal Server.
+                    </span>
+                </div>
+                <div class="features__item">
+                    <span class="features__item__header">
+                        Поставил и забыл
+                    </span>
+                    <span class="features__item__desc">
+                        Принес коробку, подключил провод, нажал кнопку.
+                    </span>
+                </div>
+            </div>
+            <div class="details-button green-on-white">
+                Подробнее
+            </div>
         </div>
     </section>
+
+    <div class="barcode dark-bg">
+        <img src="<?php echo get_stylesheet_directory_uri() ?>./assets/images/barcode-white.png" alt="">
+    </div>
 
     <section id="ip_telephone">
         <div class="container">
