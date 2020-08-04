@@ -199,14 +199,71 @@
             </div>
         </div>
     </section>
-
-    <section id="1c_products">
+    <div class="barcode dark-bg">
+        <img src="<?php echo get_stylesheet_directory_uri() ?>./assets/images/barcode-white.png" alt="">
+    </div>
+    <section class="products_1c section-info">
         <div class="container">
-
+            <div class="section-heading">
+                <span class="section-heading__main">
+                    Продукты 1С
+                </span>
+            </div>
+            <div class="section-description">
+                1С это самая популярная многопользовательская система для комплексной
+                автоматизации бизнеса. Обеспечим комплексное сопровождение
+                Вашей программы и научим использовать100% функционала системы,
+                начиная от поддержки корректной работы программы и заканчивая
+                гибкой настройкой всех операций учета под вашу компанию.
+            </div>
+            <div class="service-cells">
+                <div class="cell">
+                    <span class="cell__header">Внедрение</span>
+                    <span class="cell__description">
+                        Каждый охотник желает
+                        знать, где сидит фазан, а
+                        может и нет.
+                        Каждый охотник желает
+                        знать, где сидит фазан, а
+                        может и нет.
+                        Каждый охотник желает
+                        знать, где сидит фазан, а
+                        может и нет.</span>
+                    <a href="#" class="cell__more">Подробнее...</a>
+                </div>
+                <div class="cell">
+                    <span class="cell__header">Поддержка</span>
+                    <span class="cell__description">
+                        Каждый охотник желает
+                        знать, где сидит фазан, а
+                        может и нет.
+                        Каждый охотник желает
+                        знать, где сидит фазан, а
+                        может и нет.
+                    </span>
+                    <a href="#" class="cell__more">Подробнее...</a>
+                </div>
+                <div class="cell">
+                    <span class="cell__header">Кастомизация</span>
+                    <span class="cell__description">
+                        Каждый охотник желает
+                        знать, где сидит фазан, а
+                        может и нет.
+                        Каждый охотник желает
+                        знать, где сидит фазан, а
+                        может.
+                    </span>
+                    <a href="#" class="cell__more">Подробнее...</a>
+                </div>
+            </div>
         </div>
     </section>
 
-    <section id="wtware">
+    <div class="barcode">
+        <img src="<?php echo get_stylesheet_directory_uri() ?>./assets/images/barcode.png" alt="">
+    </div>
+
+    <section class="wtware">
         <div class="container">
 
         </div>

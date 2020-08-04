@@ -19,8 +19,14 @@
   justify-content: end;
 }
 
+.dark-bg {
+  background: #070618 url("assets/images/background.png") repeat;
+  background-blend-mode: normal;
+}
+
 .section-info {
   padding-top: 125px;
+  padding-bottom: 130px;
 }
 
 @media (max-width: 1500px) {
@@ -343,6 +349,7 @@ header {
 .cell__more {
   color: #fff;
   text-decoration: none;
+  font-size: 22px;
 }
 
 @media (max-width: 1400px) {
@@ -442,6 +449,27 @@ header {
   font-size: 22px;
   margin-top: 35px;
   line-height: 1.4em;
+}
+
+.products_1c {
+  background: #070618 url("assets/images/background.png") repeat;
+  background-blend-mode: normal;
+  color: #fff;
+  padding-bottom: 100px;
+}
+.products_1c .cell {
+  margin-bottom: 0;
+  border: 2px solid #8CC63F;
+  background: -moz-linear-gradient(50% 0% -90deg, rgba(140, 198, 63, 0) 50%, rgba(140, 198, 63, 0.86) 92.93%, #8cc63f 100%);
+  background: -webkit-linear-gradient(-90deg, rgba(140, 198, 63, 0) 50%, rgba(140, 198, 63, 0.86) 92.93%, #8cc63f 100%);
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0.5, rgba(140, 198, 63, 0)), color-stop(0.9293, rgba(140, 198, 63, 0.86)), color-stop(1, #8cc63f));
+  background: -o-linear-gradient(-90deg, rgba(140, 198, 63, 0) 50%, rgba(140, 198, 63, 0.86) 92.93%, #8cc63f 100%);
+  background: -ms-linear-gradient(-90deg, rgba(140, 198, 63, 0) 50%, rgba(140, 198, 63, 0.86) 92.93%, #8cc63f 100%);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#8CC63F', endColorstr='#8CC63F' ,GradientType=0)";
+  background: linear-gradient(180deg, rgba(140, 198, 63, 0) 50%, rgba(140, 198, 63, 0.86) 92.93%, #8cc63f 100%);
+}
+.products_1c .cell__header {
+  color: #8CC63F;
 }
 
 /*# sourceMappingURL=style.css.map */
