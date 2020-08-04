@@ -548,8 +548,34 @@
     </div>
 
     <footer id="footer" class="footer">
-        <div class="container">
-
+        <div class="container__header">
+            <div class="footer-wrap">
+                <div class="footer__item">
+                    <div class="footer__item footer__logo">
+                        <img src="<?php echo get_stylesheet_directory_uri() ?>./assets/images/logo.svg" alt="logo">
+                    </div>
+                    <span class="footer__copywrite logo_caption">Digatal агентство полного цикла</span>
+                    <span class="footer__copywrite">© 2013-14, KLSystem</span>
+                </div>
+                <div class="footer__item">
+                    <a href="#" class="footer__link">IT Аутсорсинг</a>
+                    <a href="#" class="footer__link">Zabbix</a>
+                    <a href="#" class="footer__link">1C</a>
+                    <a href="#" class="footer__link">WtWare</a>
+                </div>
+                <div class="footer__item">
+                    <a href="#" class="footer__link">IP телефония</a>
+                    <a href="#" class="footer__link">Сайты</a>
+                    <a href="#" class="footer__link">Сети передачи данных</a>
+                    <a href="#" class="footer__link">Видеонаблюдение</a>
+                </div>
+                <div class="footer__item">
+                    <a href="tel:+74996001442" class="footer__link footer__link__bold">+7 499 600-14-42</a>
+                    <a href="mailto:mail@klsys.ru" class="footer__link footer__link__bold">mail@klsys.ru</a>
+                    <a href="#" class="footer__link footer__link__bold">О нас</a>
+                    <a href="#" class="footer__link footer__link__bold">Контакты</a>
+                </div>
+            </div>
         </div>
     </footer>
 <?php wp_footer() ?>

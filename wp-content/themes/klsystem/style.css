@@ -99,9 +99,7 @@ body {
 }
 
 header {
-  background-color: #070618;
-  background-image: url("assets/images/background.png");
-  background-repeat: repeat;
+  background: #070618 url("assets/images/background2.png") repeat;
   color: #fff;
 }
 
@@ -145,9 +143,7 @@ header {
 }
 
 .menu-line {
-  background-color: #070618;
-  background-image: url("assets/images/background.png");
-  background-repeat: repeat;
+  background: #070618 url("assets/images/background2.png") repeat;
   color: #fff;
 }
 
@@ -454,8 +450,7 @@ header {
 }
 
 .products_1c {
-  background: #070618 url("assets/images/background.png") repeat;
-  background-blend-mode: normal;
+  background: #070618 url("assets/images/background2.png") repeat;
   color: #fff;
   padding-bottom: 100px;
 }
@@ -479,8 +474,7 @@ header {
 }
 
 .ip_telephone {
-  background: #070618 url("assets/images/background.png") repeat;
-  background-blend-mode: normal;
+  background: #070618 url("assets/images/background2.png") repeat;
   color: #fff;
 }
 .ip_telephone .features__item {
@@ -494,14 +488,53 @@ header {
 }
 
 .network {
-  background: #070618 url("assets/images/background.png") repeat;
-  background-blend-mode: normal;
+  background: #070618 url("assets/images/background2.png") repeat;
   color: #fff;
   padding-bottom: 23px;
 }
 
 .videosystem .features__item {
   max-width: 275px;
+}
+
+.footer {
+  background: url("assets/images/background2.png") repeat, #070618 url("assets/images/footer_background.png") no-repeat 0 70px;
+  color: #fff;
+  padding-top: 58px;
+  padding-bottom: 100px;
+}
+.footer-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__item {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.footer__copywrite {
+  font-size: 24px;
+}
+.footer__link {
+  font-size: 36px;
+  font-weight: 500;
+  color: #fff;
+  text-decoration: none;
+  line-height: 1.9em;
+}
+.footer__link__bold {
+  font-weight: 700;
+}
+.footer__logo {
+  margin-bottom: 20px;
+  max-width: 418px;
+  max-height: 40px;
+  min-width: 418px;
+  min-height: 40px;
+}
+
+.logo_caption {
+  flex-grow: 1;
 }
 
 /*# sourceMappingURL=style.css.map */
