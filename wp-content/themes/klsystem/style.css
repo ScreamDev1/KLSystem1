@@ -284,6 +284,9 @@ header {
     margin-top: 130px;
     font-size: 75px;
   }
+  .service-cells {
+    margin-top: 50px;
+  }
 
   .service-description {
     margin-top: 70px;
@@ -619,6 +622,13 @@ header {
   flex-direction: row;
   justify-content: end;
 }
+.barcode__mobile {
+  display: none;
+}
+.barcode img {
+  width: 1267px;
+  height: 70px;
+}
 
 .dark-bg {
   background: #070618 url("assets/images/background.png") repeat;
@@ -661,6 +671,15 @@ header {
   .section-info {
     padding-top: 62px;
     padding-bottom: 50px;
+  }
+
+  .barcode {
+    display: none;
+  }
+  .barcode__mobile {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
   }
 }
 @media (max-width: 600px) {

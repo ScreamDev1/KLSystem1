@@ -142,6 +142,9 @@
     <div class="barcode">
         <img src="<?php echo get_stylesheet_directory_uri() ?>./assets/images/barcode.png" alt="">
     </div>
+    <div class="barcode__mobile">
+        <img src="<?php echo get_stylesheet_directory_uri() ?>./assets/images/barcode_mobile.png" alt="">
+    </div>
     <section class="zabbix section-info">
         <div class="container">
             <div class="section-heading">
@@ -199,9 +202,14 @@
             </div>
         </div>
     </section>
+
     <div class="barcode dark-bg">
         <img src="<?php echo get_stylesheet_directory_uri() ?>./assets/images/barcode-white.png" alt="">
     </div>
+    <div class="barcode__mobile dark-bg">
+        <img src="<?php echo get_stylesheet_directory_uri() ?>./assets/images/barcode-white_mobile.png" alt="">
+    </div>
+
     <section class="products_1c section-info">
         <div class="container">
             <div class="section-heading">
@@ -261,6 +269,9 @@
 
     <div class="barcode">
         <img src="<?php echo get_stylesheet_directory_uri() ?>./assets/images/barcode.png" alt="">
+    </div>
+    <div class="barcode__mobile">
+        <img src="<?php echo get_stylesheet_directory_uri() ?>./assets/images/barcode_mobile.png" alt="">
     </div>
 
     <section class="wtware section-info">
@@ -328,6 +339,9 @@
     <div class="barcode dark-bg">
         <img src="<?php echo get_stylesheet_directory_uri() ?>./assets/images/barcode-white.png" alt="">
     </div>
+    <div class="barcode__mobile dark-bg">
+        <img src="<?php echo get_stylesheet_directory_uri() ?>./assets/images/barcode-white_mobile.png" alt="">
+    </div>
 
     <section class="ip_telephone section-info">
         <div class="container">
@@ -388,6 +402,9 @@
     <div class="barcode">
         <img src="<?php echo get_stylesheet_directory_uri() ?>./assets/images/barcode.png" alt="">
     </div>
+    <div class="barcode__mobile">
+        <img src="<?php echo get_stylesheet_directory_uri() ?>./assets/images/barcode_mobile.png" alt="">
+    </div>
 
     <section class="sites section-info">
         <div class="container">
@@ -444,6 +461,9 @@
     <div class="barcode dark-bg">
         <img src="<?php echo get_stylesheet_directory_uri() ?>./assets/images/barcode-white.png" alt="">
     </div>
+    <div class="barcode__mobile dark-bg">
+        <img src="<?php echo get_stylesheet_directory_uri() ?>./assets/images/barcode-white_mobile.png" alt="">
+    </div>
 
     <section class="network section-info">
         <div class="container">
@@ -486,6 +506,9 @@
         </div>
     </section>
 
+    <div class="barcode__mobile">
+        <img src="<?php echo get_stylesheet_directory_uri() ?>./assets/images/barcode_mobile.png" alt="">
+    </div>
     <div class="barcode">
         <img src="<?php echo get_stylesheet_directory_uri() ?>./assets/images/barcode.png" alt="">
     </div>
@@ -545,6 +568,9 @@
 
     <div class="barcode dark-bg">
         <img src="<?php echo get_stylesheet_directory_uri() ?>./assets/images/barcode-white.png" alt="">
+    </div>
+    <div class="barcode__mobile dark-bg">
+        <img src="<?php echo get_stylesheet_directory_uri() ?>./assets/images/barcode-white_mobile.png" alt="">
     </div>
 
     <footer id="footer" class="footer">
