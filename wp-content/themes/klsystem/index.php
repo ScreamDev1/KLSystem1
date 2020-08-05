@@ -75,7 +75,7 @@
             </p>
             <div class="service-cells">
                 <div class="cell">
-                    <span class="cell__header">Обслуживание</span>
+                    <span class="cell__header">Обслуживание </span>
                     <span class="cell__description">
                         Каждый охотник желает
                         знать, где сидит фазан, а
@@ -579,6 +579,7 @@
         </div>
     </footer>
 <?php wp_footer() ?>
+    <script src="<?php echo get_stylesheet_directory_uri() ?>./assets/js/main.js"></script>
 </body>
 
 </html>
