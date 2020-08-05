@@ -75,7 +75,7 @@
             </p>
             <div class="service-cells">
                 <div class="cell">
-                    <span class="cell__header">Обслуживание </span>
+                    <span class="cell__header js_acc">Обслуживание </span>
                     <span class="cell__description">
                         Каждый охотник желает
                         знать, где сидит фазан, а
@@ -89,7 +89,7 @@
                     <a href="#" class="cell__more">Подробнее...</a>
                 </div>
                 <div class="cell">
-                    <span class="cell__header">Аудит</span>
+                    <span class="cell__header js_acc">Аудит</span>
                     <span class="cell__description">
                         Каждый охотник желает
                         знать, где сидит фазан, а
@@ -101,7 +101,7 @@
                     <a href="#" class="cell__more">Подробнее...</a>
                 </div>
                 <div class="cell">
-                    <span class="cell__header">Аутстаффинг</span>
+                    <span class="cell__header js_acc">Аутстаффинг</span>
                     <span class="cell__description">
                         Каждый охотник желает
                         знать, где сидит фазан, а
@@ -113,7 +113,7 @@
                     <a href="#" class="cell__more">Подробнее...</a>
                 </div>
                 <div class="cell">
-                    <span class="cell__header">1 линия техподдержки</span>
+                    <span class="cell__header js_acc">1 линия техподдержки</span>
                     <span class="cell__description">
                         Каждый охотник желает
                         знать, где сидит фазан, а
@@ -128,7 +128,7 @@
                     <a href="#" class="cell__more">Подробнее...</a>
                 </div>
                 <div class="cell">
-                    <span class="cell__header">IT Дикректор</span>
+                    <span class="cell__header js_acc">IT Дикректор</span>
                     <span class="cell__description">
                         Каждый охотник желает
                         знать, где сидит фазан, а
@@ -159,7 +159,7 @@
             </div>
             <div class="features">
                 <div class="features__item">
-                    <span class="features__item__header">
+                    <span class="features__item__header js_acc">
                         Сбор метрики с устройств
                     </span>
                     <span class="features__item__desc">
@@ -170,7 +170,7 @@
                     </span>
                 </div>
                 <div class="features__item">
-                    <span class="features__item__header">
+                    <span class="features__item__header js_acc">
                         Определение гибких порогов
                     </span>
                     <span class="features__item__desc">
@@ -183,7 +183,7 @@
                     </span>
                 </div>
                 <div class="features__item">
-                    <span class="features__item__header">
+                    <span class="features__item__header js_acc">
                         Оповещения при проблемах
                     </span>
                     <span class="features__item__desc">
@@ -218,7 +218,7 @@
             </div>
             <div class="service-cells">
                 <div class="cell">
-                    <span class="cell__header">Внедрение</span>
+                    <span class="cell__header js_acc">Внедрение</span>
                     <span class="cell__description">
                         Каждый охотник желает
                         знать, где сидит фазан, а
@@ -232,7 +232,7 @@
                     <a href="#" class="cell__more">Подробнее...</a>
                 </div>
                 <div class="cell">
-                    <span class="cell__header">Поддержка</span>
+                    <span class="cell__header js_acc">Поддержка</span>
                     <span class="cell__description">
                         Каждый охотник желает
                         знать, где сидит фазан, а
@@ -244,7 +244,7 @@
                     <a href="#" class="cell__more">Подробнее...</a>
                 </div>
                 <div class="cell">
-                    <span class="cell__header">Кастомизация</span>
+                    <span class="cell__header js_acc">Кастомизация</span>
                     <span class="cell__description">
                         Каждый охотник желает
                         знать, где сидит фазан, а
@@ -283,7 +283,7 @@
             </div>
             <div class="features">
                 <div class="features__item">
-                    <span class="features__item__header">
+                    <span class="features__item__header js_acc">
                         Загружается по сети
                     </span>
                     <span class="features__item__desc">
@@ -293,7 +293,7 @@
                     </span>
                 </div>
                 <div class="features__item">
-                    <span class="features__item__header">
+                    <span class="features__item__header js_acc">
                         Просто настроить
                     </span>
                     <span class="features__item__desc">
@@ -301,7 +301,7 @@
                     </span>
                 </div>
                 <div class="features__item">
-                    <span class="features__item__header">
+                    <span class="features__item__header js_acc">
                         Работает с Server 2019
                     </span>
                     <span class="features__item__desc">
@@ -311,7 +311,7 @@
                     </span>
                 </div>
                 <div class="features__item">
-                    <span class="features__item__header">
+                    <span class="features__item__header js_acc">
                         Поставил и забыл
                     </span>
                     <span class="features__item__desc">
@@ -345,7 +345,7 @@
             </div>
             <div class="features">
                 <div class="features__item">
-                    <span class="features__item__header">
+                    <span class="features__item__header js_acc">
                         Всегда на связи
                     </span>
                     <span class="features__item__desc">
@@ -354,8 +354,8 @@
                         многоканальным номерам
                     </span>
                 </div>
-                <div class="features__item">
-                    <span class="features__item__header">
+                <div class="features__item js_acc">
+                    <span class="features__item__header js_acc">
                         Все вместе
                     </span>
                     <span class="features__item__desc">
@@ -363,7 +363,7 @@
                     </span>
                 </div>
                 <div class="features__item">
-                    <span class="features__item__header">
+                    <span class="features__item__header js_acc">
                         Четкий звук
                     </span>
                     <span class="features__item__desc">
@@ -371,7 +371,7 @@
                     </span>
                 </div>
                 <div class="features__item">
-                    <span class="features__item__header">
+                    <span class="features__item__header js_acc">
                         Помнит все
                     </span>
                     <span class="features__item__desc">
@@ -404,7 +404,7 @@
             </div>
             <div class="features">
                 <div class="features__item">
-                    <span class="features__item__header">
+                    <span class="features__item__header js_acc">
                         Обслуживание
                     </span>
                     <span class="features__item__desc">
@@ -415,7 +415,7 @@
                     </span>
                 </div>
                 <div class="features__item">
-                    <span class="features__item__header">
+                    <span class="features__item__header js_acc">
                         Создание
                     </span>
                     <span class="features__item__desc">
@@ -427,7 +427,7 @@
                     </span>
                 </div>
                 <div class="features__item">
-                    <span class="features__item__header">
+                    <span class="features__item__header js_acc">
                         Продвижение
                     </span>
                     <span class="features__item__desc">
@@ -462,21 +462,21 @@
             </div>
             <div class="service-cells">
                 <div class="cell">
-                    <span class="cell__header">Структуриро-ванные касательные системы</span>
+                    <span class="cell__header js_acc">Структуриро-ванные касательные системы</span>
                     <span class="cell__description">
                         Краткое описание услуги. Краткое описание услуги. Краткое описание услуги
                     </span>
                     <a href="#" class="cell__more">Подробнее...</a>
                 </div>
                 <div class="cell">
-                    <span class="cell__header">Волоконно-Оптические Линии Связи</span>
+                    <span class="cell__header js_acc">Волоконно-Оптические Линии Связи</span>
                     <span class="cell__description">
                         Краткое описание услуги. Краткое описание услуги. Краткое описание услуги. Краткое описание услуги
                     </span>
                     <a href="#" class="cell__more">Подробнее...</a>
                 </div>
                 <div class="cell">
-                    <span class="cell__header">Системы контроля учета доступа</span>
+                    <span class="cell__header js_acc">Системы контроля учета доступа</span>
                     <span class="cell__description">
                         Краткое описание услуги. Краткое описание услуги. Краткое описание услуги. Краткое описание услуги
                     </span>
@@ -505,7 +505,7 @@
             </div>
             <div class="features">
                 <div class="features__item">
-                    <span class="features__item__header">
+                    <span class="features__item__header js_acc">
                         Удаленный контроль
                     </span>
                     <span class="features__item__desc">
@@ -513,7 +513,7 @@
                     </span>
                 </div>
                 <div class="features__item">
-                    <span class="features__item__header">
+                    <span class="features__item__header js_acc">
                         Высокое качество
                     </span>
                     <span class="features__item__desc">
@@ -521,7 +521,7 @@
                     </span>
                 </div>
                 <div class="features__item">
-                    <span class="features__item__header">
+                    <span class="features__item__header js_acc">
                         Уведомления
                     </span>
                     <span class="features__item__desc">
@@ -529,7 +529,7 @@
                     </span>
                 </div>
                 <div class="features__item">
-                    <span class="features__item__header">
+                    <span class="features__item__header js_acc">
                         Полный архив
                     </span>
                     <span class="features__item__desc">

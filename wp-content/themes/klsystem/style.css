@@ -503,6 +503,67 @@ header {
   line-height: 1.4em;
 }
 
+@media (max-width: 700px) {
+  .section-description {
+    font-size: 24px;
+    margin-top: 40px;
+  }
+
+  .section-heading__main {
+    margin-right: 0;
+    font-size: 55px;
+    display: block;
+  }
+
+  .section-heading__sub {
+    display: block;
+    font-size: 21px;
+    margin-top: 20px;
+  }
+
+  .features {
+    margin-right: 0;
+    margin-bottom: 0;
+    flex-wrap: wrap;
+  }
+  .features__item {
+    margin-bottom: 0;
+    min-width: 460px;
+    padding: 20px 30px 20px 30px;
+    height: 100%;
+  }
+  .features__item__header {
+    margin-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  .features__item__header:after {
+    content: url("assets/images/toggle_icon.png");
+    width: 15px;
+    height: 18px;
+    font-size: 0;
+    margin-top: 20px;
+    padding-left: 0;
+    margin-left: 52px;
+  }
+  .features__item__header.active:after {
+    content: url("assets/images/toggle_icon.png");
+    transform: rotate(90deg);
+    width: 15px;
+    height: 18px;
+    padding-left: 0;
+  }
+  .features__item__desc {
+    display: none;
+  }
+}
 .products_1c {
   background: #070618 url("assets/images/background2.png") repeat;
   color: #fff;
