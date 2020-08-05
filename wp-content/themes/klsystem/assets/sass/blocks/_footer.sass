@@ -28,3 +28,29 @@
     min-height: 40px
 .logo_caption
   flex-grow: 1
+
+@media (max-width: 700px)
+  .logo_caption
+    display: none
+  .footer
+    padding-top: 20px
+    padding-bottom: 20px
+    background-image: none
+    &__item
+     display: none
+    &__item:first-child
+      display: flex
+      flex-direction: row
+      justify-content: space-between
+      width: 100%
+
+    &__logo
+      margin-bottom: 0
+      max-width: 182px
+      max-height: 16px
+      min-width: 182px
+      min-height: 16px
+    &__copywrite
+      font-size: 12px
+      margin-right: 20px
+      font-weight: 500

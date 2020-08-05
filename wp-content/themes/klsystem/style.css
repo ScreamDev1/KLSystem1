@@ -1,72 +1,3 @@
-* {
-  box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-}
-
-.container__header {
-  max-width: 1680px;
-  margin: auto;
-}
-
-.container {
-  max-width: 1322px;
-  margin: auto;
-}
-
-.barcode {
-  display: flex;
-  flex-direction: row;
-  justify-content: end;
-}
-
-.dark-bg {
-  background: #070618 url("assets/images/background.png") repeat;
-  background-blend-mode: normal;
-}
-
-.section-info {
-  padding-top: 125px;
-  padding-bottom: 100px;
-}
-
-@media (max-width: 1500px) {
-  .container__header {
-    max-width: 1450px;
-  }
-
-  .container {
-    max-width: 1450px;
-    padding: 0 20px;
-  }
-}
-@media (max-width: 1024px) {
-  .container__header {
-    max-width: 960px;
-  }
-
-  .container {
-    max-width: 960px;
-  }
-}
-@media (max-width: 700px) {
-  .container__header {
-    max-width: 650px;
-  }
-
-  .container {
-    max-width: 650px;
-  }
-}
-@media (max-width: 600px) {
-  .container__header {
-    max-width: 550px;
-  }
-
-  .container {
-    max-width: 550px;
-    padding: 0 20px;
-  }
-}
 @font-face {
   font-family: "Montserrat Regular";
   src: url("../fonts/Montserrat-Regular.eot");
@@ -81,23 +12,6 @@
   font-weight: normal;
   font-style: normal;
 }
-body {
-  font-family: "Montserrat", sans-serif;
-  background-image: url("assets/images/background2.png");
-  background-repeat: repeat;
-}
-
-.green-on-white {
-  color: #8CC63F;
-  border: 2px solid #8CC63F;
-  padding: 20px 50px;
-  font-size: 54px;
-  font-weight: 500;
-  text-align: center;
-  display: inline-block;
-  box-shadow: -5px 10px 10px #dddddd, 5px 10px 10px #dddddd;
-}
-
 header {
   background: #070618 url("assets/images/background2.png") repeat;
   color: #fff;
@@ -513,6 +427,7 @@ header {
     margin-right: 0;
     font-size: 55px;
     display: block;
+    word-wrap: break-word;
   }
 
   .section-heading__sub {
@@ -650,6 +565,138 @@ header {
 
 .logo_caption {
   flex-grow: 1;
+}
+
+@media (max-width: 700px) {
+  .logo_caption {
+    display: none;
+  }
+
+  .footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-image: none;
+  }
+  .footer__item {
+    display: none;
+  }
+  .footer__item:first-child {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .footer__logo {
+    margin-bottom: 0;
+    max-width: 182px;
+    max-height: 16px;
+    min-width: 182px;
+    min-height: 16px;
+  }
+  .footer__copywrite {
+    font-size: 12px;
+    margin-right: 20px;
+    font-weight: 500;
+  }
+}
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.container__header {
+  max-width: 1680px;
+  margin: auto;
+}
+
+.container {
+  max-width: 1322px;
+  margin: auto;
+}
+
+.barcode {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+
+.dark-bg {
+  background: #070618 url("assets/images/background.png") repeat;
+  background-blend-mode: normal;
+}
+
+.section-info {
+  padding-top: 125px;
+  padding-bottom: 100px;
+}
+
+@media (max-width: 1500px) {
+  .container__header {
+    max-width: 1450px;
+  }
+
+  .container {
+    max-width: 1450px;
+    padding: 0 20px;
+  }
+}
+@media (max-width: 1024px) {
+  .container__header {
+    max-width: 960px;
+  }
+
+  .container {
+    max-width: 960px;
+  }
+}
+@media (max-width: 700px) {
+  .container__header {
+    max-width: 650px;
+  }
+
+  .container {
+    max-width: 650px;
+  }
+
+  .section-info {
+    padding-top: 62px;
+    padding-bottom: 50px;
+  }
+}
+@media (max-width: 600px) {
+  .container__header {
+    max-width: 550px;
+  }
+
+  .container {
+    max-width: 550px;
+    padding: 0 20px;
+  }
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  background-image: url("assets/images/background2.png");
+  background-repeat: repeat;
+}
+
+.green-on-white {
+  color: #8CC63F;
+  border: 2px solid #8CC63F;
+  padding: 20px 50px;
+  font-size: 54px;
+  font-weight: 500;
+  text-align: center;
+  display: inline-block;
+  box-shadow: -5px 10px 10px #dddddd, 5px 10px 10px #dddddd;
+}
+
+@media (max-width: 700px) {
+  .green-on-white {
+    font-size: 25px;
+    padding: 10px 20px;
+    margin-left: 30px;
+    margin-top: 30px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
