@@ -2,6 +2,16 @@
   background: none
   color: #000
   padding-bottom: 130px
+
+  .parallax-wrapper
+    position: relative
+    top: 160px
+    left: 1420px
+    margin-top: -656px
+
+  .paralax-item
+    position: relative
+
 .section-heading
   &__main
     font-size: 100px
@@ -35,7 +45,19 @@
       margin-top: 35px
       line-height: 1.4em
 
-@media (max-width: 700px)
+
+
+@media (max-width: 1400px)
+  .section-heading
+    &__main
+      font-size: 80px
+    &__sub
+      font-size: 30px
+  .section-description
+    font-size: 28px
+    margin-top: 70px
+
+@media (max-width: 1000px)
   .section-description
     font-size: 24px
     margin-top: 40px

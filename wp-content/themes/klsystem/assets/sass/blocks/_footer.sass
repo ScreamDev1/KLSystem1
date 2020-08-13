@@ -29,7 +29,18 @@
 .logo_caption
   flex-grow: 1
 
-@media (max-width: 700px)
+@media (max-width: 1600px)
+  .footer
+    &__item:nth-child(2)
+      display: none
+
+@media (max-width: 1400px)
+  .footer
+    &-wrap
+      justify-content: space-around
+    &__item:nth-child(3)
+      display: none
+@media (max-width: 800px)
   .logo_caption
     display: none
   .footer

@@ -178,6 +178,14 @@ header {
   min-height: 700px;
   padding-top: 140px;
 }
+.it_outsource .parallax-wrapper {
+  position: absolute;
+  top: 1920px;
+  left: 1320px;
+}
+.it_outsource .paralax-item {
+  position: relative;
+}
 .it_outsource h1 {
   font-size: 54px;
   font-weight: 500;
@@ -218,53 +226,6 @@ header {
   line-height: 1.4em;
 }
 
-.service-cells {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  margin-top: 140px;
-}
-
-.cell {
-  background: -moz-linear-gradient(50% 0% -90deg, rgba(0, 173, 239, 0) 42.74%, rgba(0, 173, 239, 0.86) 91.91%, #00adef 100%);
-  background: -webkit-linear-gradient(-90deg, rgba(0, 173, 239, 0) 42.74%, rgba(0, 173, 239, 0.86) 91.91%, #00adef 100%);
-  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0.4274, rgba(0, 173, 239, 0)), color-stop(0.9191, rgba(0, 173, 239, 0.86)), color-stop(1, #00adef));
-  background: -o-linear-gradient(-90deg, rgba(0, 173, 239, 0) 42.74%, rgba(0, 173, 239, 0.86) 91.91%, #00adef 100%);
-  background: -ms-linear-gradient(-90deg, rgba(0, 173, 239, 0) 42.74%, rgba(0, 173, 239, 0.86) 91.91%, #00adef 100%);
-  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ADEF', endColorstr='#00ADEF' ,GradientType=0)";
-  background: linear-gradient(180deg, rgba(0, 173, 239, 0) 42.74%, rgba(0, 173, 239, 0.86) 91.91%, #00adef 100%);
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  border: 2px solid #00acee;
-  width: 398px;
-  height: 550px;
-  margin-right: 58px;
-  margin-bottom: 77px;
-  padding: 70px 40px 50px 40px;
-}
-.cell:nth-child(3n) {
-  margin-right: 0;
-}
-.cell__header {
-  font-size: 40px;
-  font-weight: 500;
-  color: #00acee;
-  display: block;
-  text-align: left;
-  margin-bottom: 90px;
-}
-.cell__description {
-  display: block;
-  font-size: 22px;
-  flex-grow: 1;
-}
-.cell__more {
-  color: #fff;
-  text-decoration: none;
-  font-size: 22px;
-}
-
 @media (max-width: 1400px) {
   .it_outsource {
     padding-top: 60px;
@@ -283,18 +244,6 @@ header {
   .service {
     margin-top: 130px;
     font-size: 75px;
-  }
-  .service-cells {
-    margin-top: 50px;
-  }
-
-  .service-description {
-    margin-top: 70px;
-    font-size: 28px;
-  }
-
-  .cell:nth-child(3n) {
-    margin-right: 58px;
   }
 }
 @media (max-width: 700px) {
@@ -317,67 +266,20 @@ header {
     margin-top: 100px;
     font-size: 55px;
   }
-
-  .service-description {
-    margin-top: 50px;
-    font-size: 24px;
-  }
-
-  .cell {
-    min-width: 460px;
-    height: 100%;
-    margin-right: 0;
-    margin-bottom: 0;
-    padding: 38px 30px 30px 30px;
-    background: none;
-  }
-  .cell__header {
-    margin-bottom: 0;
-    display: flex;
-    justify-content: space-between;
-    cursor: pointer;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-  }
-  .cell__header:after {
-    content: url("assets/images/toggle_icon.png");
-    width: 15px;
-    height: 18px;
-    font-size: 0;
-    margin-top: 20px;
-  }
-  .cell__header.active:after {
-    content: url("assets/images/toggle_icon.png");
-    transform: rotate(90deg);
-    width: 15px;
-    height: 18px;
-  }
-  .cell__description {
-    display: none;
-    margin-top: 30px;
-  }
-  .cell__more {
-    display: none;
-    margin-top: 40px;
-    border: 2px solid #8CC63F;
-    max-width: max-content;
-    padding: 10px 15px 11px 20px;
-    background: -moz-linear-gradient(50% -0.74% -90deg, rgba(140, 198, 63, 0) 70%, rgba(140, 198, 63, 0.42) 85.87%, rgba(140, 198, 63, 0.85) 100%);
-    background: -webkit-linear-gradient(-90deg, rgba(140, 198, 63, 0) 70%, rgba(140, 198, 63, 0.42) 85.87%, rgba(140, 198, 63, 0.85) 100%);
-    background: -o-linear-gradient(-90deg, rgba(140, 198, 63, 0) 70%, rgba(140, 198, 63, 0.42) 85.87%, rgba(140, 198, 63, 0.85) 100%);
-    background: -ms-linear-gradient(-90deg, rgba(140, 198, 63, 0) 70%, rgba(140, 198, 63, 0.42) 85.87%, rgba(140, 198, 63, 0.85) 100%);
-    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#8CC63F', endColorstr='#8CC63F' ,GradientType=0)";
-    background: linear-gradient(180deg, rgba(140, 198, 63, 0) 70%, rgba(140, 198, 63, 0.42) 85.87%, rgba(140, 198, 63, 0.85) 100%);
-  }
 }
 .zabbix {
   background: none;
   color: #000;
   padding-bottom: 130px;
+}
+.zabbix .parallax-wrapper {
+  position: relative;
+  top: 160px;
+  left: 1420px;
+  margin-top: -656px;
+}
+.zabbix .paralax-item {
+  position: relative;
 }
 
 .section-heading__main {
@@ -420,7 +322,20 @@ header {
   line-height: 1.4em;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1400px) {
+  .section-heading__main {
+    font-size: 80px;
+  }
+  .section-heading__sub {
+    font-size: 30px;
+  }
+
+  .section-description {
+    font-size: 28px;
+    margin-top: 70px;
+  }
+}
+@media (max-width: 1000px) {
   .section-description {
     font-size: 24px;
     margin-top: 40px;
@@ -489,21 +404,28 @@ header {
 }
 .products_1c .cell {
   margin-bottom: 0;
-  border: 2px solid #8CC63F;
-  background: -moz-linear-gradient(50% 0% -90deg, rgba(140, 198, 63, 0) 50%, rgba(140, 198, 63, 0.86) 92.93%, #8cc63f 100%);
-  background: -webkit-linear-gradient(-90deg, rgba(140, 198, 63, 0) 50%, rgba(140, 198, 63, 0.86) 92.93%, #8cc63f 100%);
-  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0.5, rgba(140, 198, 63, 0)), color-stop(0.9293, rgba(140, 198, 63, 0.86)), color-stop(1, #8cc63f));
-  background: -o-linear-gradient(-90deg, rgba(140, 198, 63, 0) 50%, rgba(140, 198, 63, 0.86) 92.93%, #8cc63f 100%);
-  background: -ms-linear-gradient(-90deg, rgba(140, 198, 63, 0) 50%, rgba(140, 198, 63, 0.86) 92.93%, #8cc63f 100%);
-  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#8CC63F', endColorstr='#8CC63F' ,GradientType=0)";
-  background: linear-gradient(180deg, rgba(140, 198, 63, 0) 50%, rgba(140, 198, 63, 0.86) 92.93%, #8cc63f 100%);
 }
-.products_1c .cell__header {
-  color: #8CC63F;
+.products_1c .parallax-wrapper {
+  position: relative;
+  top: -150px;
+  margin-bottom: -407px;
+  left: 1320px;
+}
+.products_1c .paralax-item {
+  position: relative;
 }
 
 .wtware .features__item {
   max-width: 275px;
+}
+.wtware .parallax-wrapper {
+  position: relative;
+  top: 160px;
+  left: 1420px;
+  margin-top: -656px;
+}
+.wtware .paralax-item {
+  position: relative;
 }
 
 .ip_telephone {
@@ -519,15 +441,52 @@ header {
   color: #fff;
   box-shadow: none;
 }
+.ip_telephone .parallax-wrapper {
+  position: relative;
+  top: -450px;
+  left: 1520px;
+  margin-bottom: -540px;
+}
+.ip_telephone .paralax-item {
+  position: relative;
+}
+
+.sites .parallax-wrapper {
+  position: relative;
+  top: 160px;
+  left: 1220px;
+  margin-top: -534px;
+}
+.sites .paralax-item {
+  position: relative;
+}
 
 .network {
   background: #070618 url("assets/images/background2.png") repeat;
   color: #fff;
   padding-bottom: 23px;
 }
+.network .parallax-wrapper {
+  position: relative;
+  top: 0px;
+  margin-bottom: -1240px;
+  left: 1500px;
+}
+.network .paralax-item {
+  position: relative;
+}
 
 .videosystem .features__item {
   max-width: 275px;
+}
+.videosystem .parallax-wrapper {
+  position: relative;
+  top: 160px;
+  left: 1420px;
+  margin-top: -512px;
+}
+.videosystem .paralax-item {
+  position: relative;
 }
 
 .footer {
@@ -570,7 +529,20 @@ header {
   flex-grow: 1;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1600px) {
+  .footer__item:nth-child(2) {
+    display: none;
+  }
+}
+@media (max-width: 1400px) {
+  .footer-wrap {
+    justify-content: space-around;
+  }
+  .footer__item:nth-child(3) {
+    display: none;
+  }
+}
+@media (max-width: 800px) {
   .logo_caption {
     display: none;
   }
@@ -696,6 +668,7 @@ body {
   font-family: "Montserrat", sans-serif;
   background-image: url("assets/images/background2.png");
   background-repeat: repeat;
+  overflow-x: hidden;
 }
 
 .green-on-white {
@@ -709,12 +682,169 @@ body {
   box-shadow: -5px 10px 10px #dddddd, 5px 10px 10px #dddddd;
 }
 
+.service-cells {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 140px;
+}
+
+.cell__green .cell__header {
+  color: #8CC63F;
+}
+
+.cell__blue .cell__header {
+  color: #00acee;
+}
+
+.cell {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 398px;
+  height: 550px;
+  margin-right: 58px;
+  margin-bottom: 77px;
+  padding: 70px 40px 50px 40px;
+}
+.cell__blue {
+  border: 2px solid #00acee;
+  background: -moz-linear-gradient(50% 0% -90deg, rgba(0, 173, 239, 0) 42.74%, rgba(0, 173, 239, 0.86) 91.91%, #00adef 100%);
+  background: -webkit-linear-gradient(-90deg, rgba(0, 173, 239, 0) 42.74%, rgba(0, 173, 239, 0.86) 91.91%, #00adef 100%);
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0.4274, rgba(0, 173, 239, 0)), color-stop(0.9191, rgba(0, 173, 239, 0.86)), color-stop(1, #00adef));
+  background: -o-linear-gradient(-90deg, rgba(0, 173, 239, 0) 42.74%, rgba(0, 173, 239, 0.86) 91.91%, #00adef 100%);
+  background: -ms-linear-gradient(-90deg, rgba(0, 173, 239, 0) 42.74%, rgba(0, 173, 239, 0.86) 91.91%, #00adef 100%);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ADEF', endColorstr='#00ADEF' ,GradientType=0)";
+  background: linear-gradient(180deg, rgba(0, 173, 239, 0) 42.74%, rgba(0, 173, 239, 0.86) 91.91%, #00adef 100%);
+}
+.cell__green {
+  border: 2px solid #8CC63F;
+  background: -moz-linear-gradient(50% 0% -90deg, rgba(140, 198, 63, 0) 50%, rgba(140, 198, 63, 0.86) 92.93%, #8cc63f 100%);
+  background: -webkit-linear-gradient(-90deg, rgba(140, 198, 63, 0) 50%, rgba(140, 198, 63, 0.86) 92.93%, #8cc63f 100%);
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0.5, rgba(140, 198, 63, 0)), color-stop(0.9293, rgba(140, 198, 63, 0.86)), color-stop(1, #8cc63f));
+  background: -o-linear-gradient(-90deg, rgba(140, 198, 63, 0) 50%, rgba(140, 198, 63, 0.86) 92.93%, #8cc63f 100%);
+  background: -ms-linear-gradient(-90deg, rgba(140, 198, 63, 0) 50%, rgba(140, 198, 63, 0.86) 92.93%, #8cc63f 100%);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#8CC63F', endColorstr='#8CC63F' ,GradientType=0)";
+  background: linear-gradient(180deg, rgba(140, 198, 63, 0) 50%, rgba(140, 198, 63, 0.86) 92.93%, #8cc63f 100%);
+}
+.cell:nth-child(3n) {
+  margin-right: 0;
+}
+.cell__header {
+  font-size: 40px;
+  font-weight: 500;
+  display: block;
+  text-align: left;
+  margin-bottom: 90px;
+}
+.cell__description {
+  display: block;
+  font-size: 22px;
+  flex-grow: 1;
+}
+.cell__more {
+  color: #fff;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+@media (max-width: 1400px) {
+  .service-cells {
+    margin-top: 50px;
+  }
+
+  .service-description {
+    margin-top: 70px;
+    font-size: 28px;
+  }
+
+  .cell:nth-child(3n) {
+    margin-right: 58px;
+  }
+}
 @media (max-width: 700px) {
   .green-on-white {
     font-size: 25px;
     padding: 10px 20px;
     margin-left: 30px;
     margin-top: 30px;
+  }
+
+  .service-description {
+    margin-top: 50px;
+    font-size: 24px;
+  }
+
+  .cell__blue .cell__header:after {
+    content: url("assets/images/toggle_icon.png");
+  }
+
+  .cell__blue .cell__header.active:after {
+    content: url("assets/images/toggle_icon.png");
+  }
+
+  .cell__green .cell__header:after {
+    content: url("assets/images/toggle_icon_green.png");
+  }
+
+  .cell__green .cell__header.active:after {
+    content: url("assets/images/toggle_icon_green.png");
+  }
+
+  .cell {
+    min-width: 460px;
+    height: 100%;
+    margin-right: 0;
+    margin-bottom: 0;
+    padding: 38px 30px 30px 30px;
+    background: none;
+  }
+  .cell__blue {
+    background: none;
+  }
+  .cell__green {
+    background: none;
+  }
+  .cell__header {
+    margin-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  .cell__header:after {
+    width: 15px;
+    height: 18px;
+    font-size: 0;
+    margin-top: 20px;
+  }
+  .cell__header.active:after {
+    content: url("assets/images/toggle_icon.png");
+    transform: rotate(90deg);
+    width: 15px;
+    height: 18px;
+  }
+  .cell__description {
+    display: none;
+    margin-top: 30px;
+  }
+  .cell__more {
+    display: none;
+    margin-top: 40px;
+    border: 2px solid #8CC63F;
+    max-width: max-content;
+    padding: 10px 15px 11px 20px;
+    background: -moz-linear-gradient(50% -0.74% -90deg, rgba(140, 198, 63, 0) 70%, rgba(140, 198, 63, 0.42) 85.87%, rgba(140, 198, 63, 0.85) 100%);
+    background: -webkit-linear-gradient(-90deg, rgba(140, 198, 63, 0) 70%, rgba(140, 198, 63, 0.42) 85.87%, rgba(140, 198, 63, 0.85) 100%);
+    background: -o-linear-gradient(-90deg, rgba(140, 198, 63, 0) 70%, rgba(140, 198, 63, 0.42) 85.87%, rgba(140, 198, 63, 0.85) 100%);
+    background: -ms-linear-gradient(-90deg, rgba(140, 198, 63, 0) 70%, rgba(140, 198, 63, 0.42) 85.87%, rgba(140, 198, 63, 0.85) 100%);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#8CC63F', endColorstr='#8CC63F' ,GradientType=0)";
+    background: linear-gradient(180deg, rgba(140, 198, 63, 0) 70%, rgba(140, 198, 63, 0.42) 85.87%, rgba(140, 198, 63, 0.85) 100%);
   }
 }
 

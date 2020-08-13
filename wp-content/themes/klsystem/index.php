@@ -74,7 +74,7 @@
                 до постоянных расходов на повышение квалифииации.
             </p>
             <div class="service-cells">
-                <div class="cell">
+                <div class="cell cell__blue">
                     <span class="cell__header js_acc">Обслуживание </span>
                     <span class="cell__description">
                         Каждый охотник желает
@@ -88,7 +88,7 @@
                         может и нет.</span>
                     <a href="#" class="cell__more">Подробнее...</a>
                 </div>
-                <div class="cell">
+                <div class="cell cell__blue">
                     <span class="cell__header js_acc">Аудит</span>
                     <span class="cell__description">
                         Каждый охотник желает
@@ -100,7 +100,7 @@
                     </span>
                     <a href="#" class="cell__more">Подробнее...</a>
                 </div>
-                <div class="cell">
+                <div class="cell cell__blue">
                     <span class="cell__header js_acc">Аутстаффинг</span>
                     <span class="cell__description">
                         Каждый охотник желает
@@ -112,7 +112,7 @@
                     </span>
                     <a href="#" class="cell__more">Подробнее...</a>
                 </div>
-                <div class="cell">
+                <div class="cell cell__blue">
                     <span class="cell__header js_acc">1 линия техподдержки</span>
                     <span class="cell__description">
                         Каждый охотник желает
@@ -127,7 +127,7 @@
                     </span>
                     <a href="#" class="cell__more">Подробнее...</a>
                 </div>
-                <div class="cell">
+                <div class="cell cell__blue">
                     <span class="cell__header js_acc">IT Дикректор</span>
                     <span class="cell__description">
                         Каждый охотник желает
@@ -137,6 +137,9 @@
                     <a href="#" class="cell__more">Подробнее... </a>
                 </div>
             </div>
+        </div>
+        <div class="parallax-wrapper">
+            <img src="<?php echo get_stylesheet_directory_uri() ?>./assets/images/figure_1.png" alt="" class="paralax-item">
         </div>
     </section>
     <div class="barcode">
@@ -201,6 +204,9 @@
                 Подробнее
             </div>
         </div>
+        <div class="parallax-wrapper">
+            <img src="<?php echo get_stylesheet_directory_uri() ?>./assets/images/zabbix_parallax.png" alt="" class="paralax-item">
+        </div>
     </section>
 
     <div class="barcode dark-bg">
@@ -211,6 +217,9 @@
     </div>
 
     <section class="products_1c section-info">
+        <div class="parallax-wrapper">
+            <img src="<?php echo get_stylesheet_directory_uri() ?>./assets/images/1c_parallax.png" alt="" class="paralax-item">
+        </div>
         <div class="container">
             <div class="section-heading">
                 <span class="section-heading__main">
@@ -225,7 +234,7 @@
                 гибкой настройкой всех операций учета под вашу компанию.
             </div>
             <div class="service-cells">
-                <div class="cell">
+                <div class="cell cell__green">
                     <span class="cell__header js_acc">Внедрение</span>
                     <span class="cell__description">
                         Каждый охотник желает
@@ -239,7 +248,7 @@
                         может и нет.</span>
                     <a href="#" class="cell__more">Подробнее...</a>
                 </div>
-                <div class="cell">
+                <div class="cell cell__green">
                     <span class="cell__header js_acc">Поддержка</span>
                     <span class="cell__description">
                         Каждый охотник желает
@@ -251,7 +260,7 @@
                     </span>
                     <a href="#" class="cell__more">Подробнее...</a>
                 </div>
-                <div class="cell">
+                <div class="cell cell__green">
                     <span class="cell__header js_acc">Кастомизация</span>
                     <span class="cell__description">
                         Каждый охотник желает
@@ -334,6 +343,9 @@
                 Подробнее
             </div>
         </div>
+        <div class="parallax-wrapper">
+            <img src="<?php echo get_stylesheet_directory_uri() ?>./assets/images/wtware_parallax.png" alt="" class="paralax-item">
+        </div>
     </section>
 
     <div class="barcode dark-bg">
@@ -368,7 +380,7 @@
                         многоканальным номерам
                     </span>
                 </div>
-                <div class="features__item js_acc">
+                <div class="features__item">
                     <span class="features__item__header js_acc">
                         Все вместе
                     </span>
@@ -396,6 +408,9 @@
             <div class="details-button green-on-white">
                 Подробнее
             </div>
+        </div>
+        <div class="parallax-wrapper">
+            <img src="<?php echo get_stylesheet_directory_uri() ?>./assets/images/tel_parallax.png" alt="" class="paralax-item">
         </div>
     </section>
 
@@ -456,6 +471,9 @@
                 Подробнее
             </div>
         </div>
+        <div class="parallax-wrapper">
+            <img src="<?php echo get_stylesheet_directory_uri() ?>./assets/images/sites_parallax.png" alt="" class="paralax-item">
+        </div>
     </section>
 
     <div class="barcode dark-bg">
@@ -466,6 +484,9 @@
     </div>
 
     <section class="network section-info">
+        <div class="parallax-wrapper">
+            <img src="<?php echo get_stylesheet_directory_uri() ?>./assets/images/network_parallax.png" alt="" class="paralax-item">
+        </div>
         <div class="container">
             <div class="section-heading">
                 <span class="section-heading__main">
@@ -481,21 +502,21 @@
                 в своей работе сетевые протоколы передачи данных.
             </div>
             <div class="service-cells">
-                <div class="cell">
+                <div class="cell cell__blue">
                     <span class="cell__header js_acc">Структуриро-ванные касательные системы</span>
                     <span class="cell__description">
                         Краткое описание услуги. Краткое описание услуги. Краткое описание услуги
                     </span>
                     <a href="#" class="cell__more">Подробнее...</a>
                 </div>
-                <div class="cell">
+                <div class="cell cell__blue">
                     <span class="cell__header js_acc">Волоконно-Оптические Линии Связи</span>
                     <span class="cell__description">
                         Краткое описание услуги. Краткое описание услуги. Краткое описание услуги. Краткое описание услуги
                     </span>
                     <a href="#" class="cell__more">Подробнее...</a>
                 </div>
-                <div class="cell">
+                <div class="cell cell__blue">
                     <span class="cell__header js_acc">Системы контроля учета доступа</span>
                     <span class="cell__description">
                         Краткое описание услуги. Краткое описание услуги. Краткое описание услуги. Краткое описание услуги
@@ -564,6 +585,9 @@
                 Подробнее
             </div>
         </div>
+        <div class="parallax-wrapper">
+            <img src="<?php echo get_stylesheet_directory_uri() ?>./assets/images/video_parallax.png" alt="" class="paralax-item">
+        </div>
     </section>
 
     <div class="barcode dark-bg">
@@ -605,7 +629,9 @@
         </div>
     </footer>
 <?php wp_footer() ?>
+    <script src="/node_modules/simple-parallax-js/dist/simpleParallax.js"></script>
     <script src="<?php echo get_stylesheet_directory_uri() ?>./assets/js/main.js"></script>
+    <script src="<?php echo get_stylesheet_directory_uri() ?>./assets/js/parallax.js"></script>
 </body>
 
 </html>
