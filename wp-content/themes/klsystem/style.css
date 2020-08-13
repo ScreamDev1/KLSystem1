@@ -12,6 +12,88 @@
   font-weight: normal;
   font-style: normal;
 }
+.dropdown-menu {
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: row;
+  background-color: #070618;
+  justify-content: space-between;
+  padding-top: 180px;
+  padding-bottom: 40px;
+  width: 100%;
+  opacity: 0.9;
+}
+.dropdown-menu .right-content {
+  margin-right: 250px;
+}
+.dropdown-menu ul {
+  padding-left: 0;
+}
+.dropdown-menu a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  font-weight: 500;
+}
+.dropdown-menu .right-content a {
+  font-size: 80px;
+  line-height: 1.6em;
+}
+.dropdown-menu .left-content a {
+  font-size: 54px;
+  line-height: 1.8em;
+  max-height: 90px;
+  width: 934px;
+  padding-left: 235px;
+}
+.dropdown-menu .left-content a:after {
+  content: "";
+  position: relative;
+  width: 20%;
+  height: 8px;
+  top: -23px;
+  display: block;
+  left: -235px;
+  background: #003559;
+}
+.dropdown-menu .left-content a:hover:after {
+  content: "";
+  position: relative;
+  width: 934px;
+  height: 8px;
+  top: -23px;
+  display: block;
+  left: -235px;
+  background: #00ADEF;
+}
+.dropdown-menu .left-content li {
+  list-style: none;
+}
+
+.close-button {
+  position: absolute;
+  top: 50px;
+  right: 130px;
+}
+
+@media (max-width: 1500px) {
+  .dropdown-menu .left-content a {
+    font-size: 38px;
+    width: 600px;
+    padding-left: 135px;
+  }
+  .dropdown-menu .left-content a:after {
+    left: -135px;
+    top: 6px;
+  }
+  .dropdown-menu .right-content {
+    margin-right: 50px;
+  }
+  .dropdown-menu .right-content a {
+    font-size: 60px;
+  }
+}
 header {
   background: #070618 url("assets/images/background2.png") repeat;
   color: #fff;
@@ -763,6 +845,10 @@ body {
   }
 }
 @media (max-width: 700px) {
+  .parallax-wrapper {
+    display: none;
+  }
+
   .green-on-white {
     font-size: 25px;
     padding: 10px 20px;

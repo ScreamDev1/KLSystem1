@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri() ?>./style.css" />
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri() ?>./assets/css/normalize.css" />
+    <script
+            src="https://code.jquery.com/jquery-3.5.1.min.js"
+            integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+            crossorigin="anonymous">
+    </script>
 <!--    <link rel="stylesheet" href="--><?php //echo get_stylesheet_directory_uri() ?><!--./assets/css/bootstrap.min.css"/>-->
 <!--    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800&display=swap" rel="stylesheet">-->
     <title>KL System</title>
@@ -12,6 +17,26 @@
 </head>
 <body>
     <header id="header" class="header">
+        <div class="dropdown-menu" id="myDIV">
+            <div class="close-button" onclick="PopUpHide()">
+                <img src="<?php echo get_stylesheet_directory_uri() ?>./assets/images/close.png" alt="">
+            </div>
+            <ul class="left-content">
+                <li><a href="#">IT Аутсорсинг</a></li>
+                <li><a href="#">Zabbix</a></li>
+                <li><a href="#">1C</a></li>
+                <li><a href="#">WtWare</a></li>
+                <li><a href="#">IP телефония</a></li>
+                <li><a href="#">Сайты</a></li>
+                <li><a href="#">Сети передачи данных</a></li>
+                <li><a href="#">Видеонаблюдение</a></li>
+            </ul>
+            <div class="right-content">
+                <a href="#">О нас</a>
+                <a href="#">Контакты</a>
+                <button class="request">Оставить заявку</button>
+            </div>
+        </div>
         <div class="navbar">
             <div class="container__header">
                 <div class="navbar-wrap">
@@ -29,7 +54,7 @@
                             <img src="<?php echo get_stylesheet_directory_uri() ?>./assets/images/telegram.svg" alt="telegram">
                         </a>
                     </div>
-                    <button class="menu-button">
+                    <button class="menu-button" onclick="PopUpShow()">
                         <img src="<?php echo get_stylesheet_directory_uri() ?>./assets/images/menu.svg" alt="">
                     </button>
                 </div>
@@ -632,6 +657,7 @@
     <script src="/node_modules/simple-parallax-js/dist/simpleParallax.js"></script>
     <script src="<?php echo get_stylesheet_directory_uri() ?>./assets/js/main.js"></script>
     <script src="<?php echo get_stylesheet_directory_uri() ?>./assets/js/parallax.js"></script>
+
 </body>
 
 </html>

@@ -19,3 +19,13 @@ if(mq.matches){
     }
 }
 
+
+$(document).ready(function(){
+    PopUpHide();
+});
+function PopUpShow(){
+    $("#myDIV").css('display', 'flex');
+}
+function PopUpHide(){
+    $("#myDIV").hide();
+}
