@@ -2,6 +2,7 @@
   box-sizing: border-box
   -webkit-box-sizing: border-box
 
+
 .container__header
   max-width: 1680px
   margin: auto
@@ -11,7 +12,7 @@
 .barcode
   display: flex
   flex-direction: row
-  justify-content: end
+  justify-content: flex-end
   &__mobile
     display: none
 
@@ -33,6 +34,8 @@
   .container
     max-width: 1450px
     padding: 0 20px
+  .parallax-wrapper
+    display: none
 
 @media (max-width: 1024px)
   .container__header
@@ -54,7 +57,7 @@
     &__mobile
       display: flex
       flex-direction: row
-      justify-content: end
+      justify-content: flex-end
 
 
 @media (max-width: 600px)

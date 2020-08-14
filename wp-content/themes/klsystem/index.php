@@ -10,6 +10,7 @@
             integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
             crossorigin="anonymous">
     </script>
+
 <!--    <link rel="stylesheet" href="--><?php //echo get_stylesheet_directory_uri() ?><!--./assets/css/bootstrap.min.css"/>-->
 <!--    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800&display=swap" rel="stylesheet">-->
     <title>KL System</title>
@@ -19,7 +20,7 @@
     <header id="header" class="header">
         <div class="dropdown-menu" id="myDIV">
             <div class="close-button" onclick="PopUpHide()">
-                <img src="<?php echo get_stylesheet_directory_uri() ?>./assets/images/close.png" alt="">
+                <img src="<?php echo get_stylesheet_directory_uri() ?>./assets/images/close_button.svg" alt="">
             </div>
             <ul class="left-content">
                 <li><a href="#">IT Аутсорсинг</a></li>
@@ -34,14 +35,16 @@
             <div class="right-content">
                 <a href="#">О нас</a>
                 <a href="#">Контакты</a>
-                <button class="request">Оставить заявку</button>
+                <button class="request" onclick="PopUpRequestShow()">Оставить заявку</button>
             </div>
         </div>
         <div class="navbar">
             <div class="container__header">
                 <div class="navbar-wrap">
                     <div class="logo navbar__logo">
-                        <img src="<?php echo get_stylesheet_directory_uri() ?>./assets/images/logo.svg" alt="logo">
+                        <a href="/">
+                            <img src="<?php echo get_stylesheet_directory_uri() ?>./assets/images/logo.svg" alt="logo">
+                        </a>
                     </div>
                     <div class="navbar__info">
                         <a class="navbar__email" href="mailto:mail@klsys.ru">mail@klsys.ru</a>
@@ -84,7 +87,7 @@
                 <a href="#" class="it_outsource__links">продвижением</a>, <a href="#" class="it_outsource__links">1С</a>
                 <br>и <a href="#" class="it_outsource__links">видеонаблюдением</a></h1>
 
-            <button class="request">
+            <button class="request" onclick="PopUpRequestShow()">
                 Оставить заявку
             </button>
             <h2 class="service">
@@ -254,7 +257,7 @@
             <div class="section-description">
                 1С это самая популярная многопользовательская система для комплексной
                 автоматизации бизнеса. Обеспечим комплексное сопровождение
-                Вашей программы и научим использовать100% функционала системы,
+                Вашей программы и научим использовать 100% функционала системы,
                 начиная от поддержки корректной работы программы и заканчивая
                 гибкой настройкой всех операций учета под вашу компанию.
             </div>
@@ -488,7 +491,7 @@
                         Продвижение
                     </span>
                     <span class="features__item__desc">
-                        Оповещение ответственных персон о событияхс использованием разных каналов
+                        Оповещение ответственных персон о событиях с использованием разных каналов
                     </span>
                 </div>
             </div>
@@ -626,8 +629,10 @@
         <div class="container__header">
             <div class="footer-wrap">
                 <div class="footer__item">
-                    <div class="footer__item footer__logo">
-                        <img src="<?php echo get_stylesheet_directory_uri() ?>./assets/images/logo.svg" alt="logo">
+                    <div class="footer__logo">
+                        <a href="/">
+                            <img src="<?php echo get_stylesheet_directory_uri() ?>./assets/images/logo.svg" alt="logo">
+                        </a>
                     </div>
                     <span class="footer__copywrite logo_caption">Digatal агентство полного цикла</span>
                     <span class="footer__copywrite">© 2013-14, KLSystem</span>
@@ -653,6 +658,22 @@
             </div>
         </div>
     </footer>
+    <div class="form-wrapper">
+        <div class="close-button" onclick="PopUpRequestHide()">
+            <img src="<?php echo get_stylesheet_directory_uri() ?>./assets/images/close_button.svg" alt="">
+        </div>
+        <form action="#" class="request-form">
+            <label for="name">Ваше имя</label><br>
+            <input type="text" name="name"><br>
+            <label for="telephone">Телефон</label><br>
+            <input type="tel" name="telephone"><br>
+            <label for="email">Почта</label><br>
+            <input type="email" name="email"><br>
+            <label for="message_text">Текст обращения</label><br>
+            <textarea name="message_text" cols="36" rows="5"></textarea>
+            <input type="submit" class="request" value="Отправить">
+        </form>
+    </div>
 <?php wp_footer() ?>
     <script src="/node_modules/simple-parallax-js/dist/simpleParallax.js"></script>
     <script src="<?php echo get_stylesheet_directory_uri() ?>./assets/js/main.js"></script>

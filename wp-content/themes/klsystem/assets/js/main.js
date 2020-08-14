@@ -29,3 +29,13 @@ function PopUpShow(){
 function PopUpHide(){
     $("#myDIV").hide();
 }
+
+$(document).ready(function(){
+    PopUpRequestHide();
+});
+function PopUpRequestShow(){
+    $(".form-wrapper").css('display', 'block');
+}
+function PopUpRequestHide(){
+    $(".form-wrapper").hide();
+}
