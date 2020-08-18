@@ -13,6 +13,8 @@ header
     margin-top: 11px
     min-width: 418px
     min-height: 55px
+    img
+      max-width: 100%
   &__info
     font-size: 36px
     font-weight: bold
@@ -30,6 +32,7 @@ header
 
 .menu-button
   background: none
+  outline: none
   border: none
   cursor: pointer
   max-width: 76px
@@ -139,3 +142,6 @@ header
     min-height: 20px
     max-height: 20px
 
+@media (max-width: 450px)
+  .navbar__info
+    display: none

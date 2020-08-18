@@ -6,7 +6,8 @@
   .parallax-wrapper
     position: relative
     top: 160px
-    left: 1420px
+    //left: 1420px
+    left: 1820px
     margin-top: -656px
 
   .paralax-item
@@ -47,7 +48,7 @@
 
 
 
-@media (max-width: 1400px)
+@media (max-width: 1440px)
   .section-heading
     &__main
       font-size: 80px
@@ -56,6 +57,23 @@
   .section-description
     font-size: 28px
     margin-top: 70px
+
+  .zabbix
+    .parallax-wrapper
+      top: 120px
+      left: 1120px
+      margin-top: -433px
+      img
+        width: 433px
+
+@media (max-width: 1300px)
+  .zabbix
+    .parallax-wrapper
+      top: 120px
+      left: 1020px
+      margin-top: -433px
+      img
+        width: 433px
 
 @media (max-width: 1000px)
   .section-description
@@ -113,3 +131,8 @@
         padding-left: 0
       &__desc
         display: none
+
+@media (max-width: 450px)
+  .features__item
+    padding: 20px 50px 20px 5px
+    min-width: 420px

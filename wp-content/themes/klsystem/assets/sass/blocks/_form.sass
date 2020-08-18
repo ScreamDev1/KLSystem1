@@ -9,6 +9,8 @@
   height: 100%
   opacity: 0.97
   background: #070618 url("assets/images/background2.png") repeat
+  z-index: 1
+  overflow-y: scroll
   .close-button
     position: absolute
     top: 45px
@@ -23,6 +25,22 @@
     top: -40px
     margin-left: 85px
     position: relative
+
+  .request:after
+    content: ''
+    position: absolute
+    top: 0px
+    left: -2px
+    width: 375px
+    height: 100px
+    background: -moz-linear-gradient(180deg, rgba(140, 198, 63, 0) 15%, rgba(140, 198, 63, 0.5) 65%, rgba(140, 198, 63, 0.8) 90%, rgba(140, 198, 63, 0.9) 95%, rgb(140, 198, 63))
+    background: linear-gradient(180deg, rgba(140, 198, 63, 0) 15%, rgba(140, 198, 63, 0.5) 65%, rgba(140, 198, 63, 0.8) 90%, rgba(140, 198, 63, 0.9) 95%, rgb(140, 198, 63))
+    opacity: 0
+    transition: opacity 0.5s
+
+  .request:hover:after
+    opacity: 1
+    z-index: -2
   form
     color: #fff
     label
@@ -37,6 +55,7 @@
       font-size: 32px
       border: none
       border-bottom: 5px solid #003559
+      outline: none
     input:focus
       border-color: #00ADEF
 
@@ -47,6 +66,8 @@
       background-color: transparent
 
 @media (max-width: 1700px)
+  .request-form
+    overflow-y: scroll
   .form-wrapper
     padding-left: 200px
     padding-top: 120px
@@ -83,3 +104,13 @@
     .close-button
       top: 20px
       right: 23px
+
+@media (max-width: 450px)
+  .form-wrapper
+    .request-form input:not(:last-child)
+      width: 340px
+    form
+      label
+        font-size: 22px
+    textarea
+      width: 340px

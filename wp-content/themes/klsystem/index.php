@@ -3,16 +3,14 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri() ?>./style.css" />
-    <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri() ?>./assets/css/normalize.css" />
+    <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri() ?>/style.css" />
+    <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri() ?>/assets/css/normalize.css" />
     <script
             src="https://code.jquery.com/jquery-3.5.1.min.js"
             integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
             crossorigin="anonymous">
     </script>
-
-<!--    <link rel="stylesheet" href="--><?php //echo get_stylesheet_directory_uri() ?><!--./assets/css/bootstrap.min.css"/>-->
-<!--    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800&display=swap" rel="stylesheet">-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;0,800;1,900&display=swap" rel="stylesheet">
     <title>KL System</title>
     <?php wp_head() ?>
 </head>
@@ -20,7 +18,7 @@
     <header id="header" class="header">
         <div class="dropdown-menu" id="myDIV">
             <div class="close-button" onclick="PopUpHide()">
-                <img src="<?php echo get_stylesheet_directory_uri() ?>./assets/images/close_button.svg" alt="">
+                <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/close_button.svg" alt="">
             </div>
             <ul class="left-content">
                 <li><a href="#">IT Аутсорсинг</a></li>
@@ -43,7 +41,7 @@
                 <div class="navbar-wrap">
                     <div class="logo navbar__logo">
                         <a href="/">
-                            <img src="<?php echo get_stylesheet_directory_uri() ?>./assets/images/logo.svg" alt="logo">
+                            <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/logo.png" alt="logo">
                         </a>
                     </div>
                     <div class="navbar__info">
@@ -54,11 +52,11 @@
                     </div>
                     <div class="navbar__telegram">
                         <a href="#">
-                            <img src="<?php echo get_stylesheet_directory_uri() ?>./assets/images/telegram.svg" alt="telegram">
+                            <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/telegram.svg" alt="telegram">
                         </a>
                     </div>
                     <button class="menu-button" onclick="PopUpShow()">
-                        <img src="<?php echo get_stylesheet_directory_uri() ?>./assets/images/menu.svg" alt="">
+                        <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/menu.svg" alt="">
                     </button>
                 </div>
             </div>
@@ -85,7 +83,7 @@
             <h1><a href="#" class="it_outsource__links">Разрабатываем</a> и <a href="#" class="it_outsource__links">обслуживаем</a>
                 веб сайты, занимаемся <a href="#" class="it_outsource__links">дизайном</a>,
                 <a href="#" class="it_outsource__links">продвижением</a>, <a href="#" class="it_outsource__links">1С</a>
-                <br>и <a href="#" class="it_outsource__links">видеонаблюдением</a></h1>
+                и <a href="#" class="it_outsource__links">видеонаблюдением</a></h1>
 
             <button class="request" onclick="PopUpRequestShow()">
                 Оставить заявку
@@ -166,15 +164,15 @@
                 </div>
             </div>
         </div>
-        <div class="parallax-wrapper">
-            <img src="<?php echo get_stylesheet_directory_uri() ?>./assets/images/figure_1.png" alt="" class="paralax-item">
+        <div class="parallax-wrapper it_parallax">
+            <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/figure_1.png" alt="" class="paralax-item">
         </div>
     </section>
     <div class="barcode">
-        <img src="<?php echo get_stylesheet_directory_uri() ?>./assets/images/barcode.png" alt="">
+        <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/barcode.png" alt="">
     </div>
     <div class="barcode__mobile">
-        <img src="<?php echo get_stylesheet_directory_uri() ?>./assets/images/barcode_mobile.png" alt="">
+        <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/barcode_mobile.png" alt="">
     </div>
     <section class="zabbix section-info">
         <div class="container">
@@ -232,21 +230,21 @@
                 Подробнее
             </div>
         </div>
-        <div class="parallax-wrapper">
-            <img src="<?php echo get_stylesheet_directory_uri() ?>./assets/images/zabbix_parallax.png" alt="" class="paralax-item">
+        <div class="parallax-wrapper zabbix-parallax">
+            <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/zabbix_parallax.png" alt="" class="paralax-item">
         </div>
     </section>
 
     <div class="barcode dark-bg">
-        <img src="<?php echo get_stylesheet_directory_uri() ?>./assets/images/barcode-white.png" alt="">
+        <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/barcode-white.png" alt="">
     </div>
     <div class="barcode__mobile dark-bg">
-        <img src="<?php echo get_stylesheet_directory_uri() ?>./assets/images/barcode-white_mobile.png" alt="">
+        <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/barcode-white_mobile.png" alt="">
     </div>
 
     <section class="products_1c section-info">
-        <div class="parallax-wrapper">
-            <img src="<?php echo get_stylesheet_directory_uri() ?>./assets/images/1c_parallax.png" alt="" class="paralax-item">
+        <div class="parallax-wrapper parallax-1c">
+            <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/1c_parallax.png" alt="" class="paralax-item">
         </div>
         <div class="container">
             <div class="section-heading">
@@ -305,10 +303,10 @@
     </section>
 
     <div class="barcode">
-        <img src="<?php echo get_stylesheet_directory_uri() ?>./assets/images/barcode.png" alt="">
+        <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/barcode.png" alt="">
     </div>
     <div class="barcode__mobile">
-        <img src="<?php echo get_stylesheet_directory_uri() ?>./assets/images/barcode_mobile.png" alt="">
+        <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/barcode_mobile.png" alt="">
     </div>
 
     <section class="wtware section-info">
@@ -329,7 +327,7 @@
                 блок и миниатюрный новый компьютер в корпусе mini-ITX,
                 который можно закрепить на задней крышке монитора.
             </div>
-            <div class="features">
+            <div class="features wt-features">
                 <div class="features__item">
                     <span class="features__item__header js_acc">
                         Загружается по сети
@@ -371,16 +369,16 @@
                 Подробнее
             </div>
         </div>
-        <div class="parallax-wrapper">
-            <img src="<?php echo get_stylesheet_directory_uri() ?>./assets/images/wtware_parallax.png" alt="" class="paralax-item">
+        <div class="parallax-wrapper wtware-parallax">
+            <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/wtware_parallax.png" alt="" class="paralax-item">
         </div>
     </section>
 
     <div class="barcode dark-bg">
-        <img src="<?php echo get_stylesheet_directory_uri() ?>./assets/images/barcode-white.png" alt="">
+        <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/barcode-white.png" alt="">
     </div>
     <div class="barcode__mobile dark-bg">
-        <img src="<?php echo get_stylesheet_directory_uri() ?>./assets/images/barcode-white_mobile.png" alt="">
+        <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/barcode-white_mobile.png" alt="">
     </div>
 
     <section class="ip_telephone section-info">
@@ -397,7 +395,7 @@
                 удаленных сотрудников? IP-телефония - это современный гибкий сервис,
                 который решает большое число бизнес-задач.
             </div>
-            <div class="features">
+            <div class="features tel-features">
                 <div class="features__item">
                     <span class="features__item__header js_acc">
                         Всегда на связи
@@ -437,16 +435,16 @@
                 Подробнее
             </div>
         </div>
-        <div class="parallax-wrapper">
-            <img src="<?php echo get_stylesheet_directory_uri() ?>./assets/images/tel_parallax.png" alt="" class="paralax-item">
+        <div class="parallax-wrapper tel-parallax">
+            <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/tel_parallax.png" alt="" class="paralax-item">
         </div>
     </section>
 
     <div class="barcode">
-        <img src="<?php echo get_stylesheet_directory_uri() ?>./assets/images/barcode.png" alt="">
+        <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/barcode.png" alt="">
     </div>
     <div class="barcode__mobile">
-        <img src="<?php echo get_stylesheet_directory_uri() ?>./assets/images/barcode_mobile.png" alt="">
+        <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/barcode_mobile.png" alt="">
     </div>
 
     <section class="sites section-info">
@@ -462,7 +460,7 @@
                 экономике. Осознанный подход к разработке интернет-магазина
                 позволяет добиться максимума отдачи от каждого реализованного проекта.
             </div>
-            <div class="features">
+            <div class="features sites-features">
                 <div class="features__item">
                     <span class="features__item__header js_acc">
                         Обслуживание
@@ -499,21 +497,21 @@
                 Подробнее
             </div>
         </div>
-        <div class="parallax-wrapper">
-            <img src="<?php echo get_stylesheet_directory_uri() ?>./assets/images/sites_parallax.png" alt="" class="paralax-item">
+        <div class="parallax-wrapper sites-parallax">
+            <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/sites_parallax.png" alt="" class="paralax-item">
         </div>
     </section>
 
     <div class="barcode dark-bg">
-        <img src="<?php echo get_stylesheet_directory_uri() ?>./assets/images/barcode-white.png" alt="">
+        <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/barcode-white.png" alt="">
     </div>
     <div class="barcode__mobile dark-bg">
-        <img src="<?php echo get_stylesheet_directory_uri() ?>./assets/images/barcode-white_mobile.png" alt="">
+        <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/barcode-white_mobile.png" alt="">
     </div>
 
     <section class="network section-info">
-        <div class="parallax-wrapper">
-            <img src="<?php echo get_stylesheet_directory_uri() ?>./assets/images/network_parallax.png" alt="" class="paralax-item">
+        <div class="parallax-wrapper network-parallax">
+            <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/network_parallax.png" alt="" class="paralax-item">
         </div>
         <div class="container">
             <div class="section-heading">
@@ -556,10 +554,10 @@
     </section>
 
     <div class="barcode__mobile">
-        <img src="<?php echo get_stylesheet_directory_uri() ?>./assets/images/barcode_mobile.png" alt="">
+        <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/barcode_mobile.png" alt="">
     </div>
     <div class="barcode">
-        <img src="<?php echo get_stylesheet_directory_uri() ?>./assets/images/barcode.png" alt="">
+        <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/barcode.png" alt="">
     </div>
 
     <section class="videosystem section-info">
@@ -575,7 +573,7 @@
                 только в случае, если все её компоненты будут иметь технические параметры,
                 адекватные решаемым задачам.
             </div>
-            <div class="features">
+            <div class="features video-features">
                 <div class="features__item">
                     <span class="features__item__header js_acc">
                         Удаленный контроль
@@ -613,16 +611,16 @@
                 Подробнее
             </div>
         </div>
-        <div class="parallax-wrapper">
-            <img src="<?php echo get_stylesheet_directory_uri() ?>./assets/images/video_parallax.png" alt="" class="paralax-item">
+        <div class="parallax-wrapper video-parallax">
+            <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/video_parallax.png" alt="" class="paralax-item">
         </div>
     </section>
 
     <div class="barcode dark-bg">
-        <img src="<?php echo get_stylesheet_directory_uri() ?>./assets/images/barcode-white.png" alt="">
+        <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/barcode-white.png" alt="">
     </div>
     <div class="barcode__mobile dark-bg">
-        <img src="<?php echo get_stylesheet_directory_uri() ?>./assets/images/barcode-white_mobile.png" alt="">
+        <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/barcode-white_mobile.png" alt="">
     </div>
 
     <footer id="footer" class="footer">
@@ -631,7 +629,7 @@
                 <div class="footer__item">
                     <div class="footer__logo">
                         <a href="/">
-                            <img src="<?php echo get_stylesheet_directory_uri() ?>./assets/images/logo.svg" alt="logo">
+                            <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/logo.png" alt="logo">
                         </a>
                     </div>
                     <span class="footer__copywrite logo_caption">Digatal агентство полного цикла</span>
@@ -660,7 +658,7 @@
     </footer>
     <div class="form-wrapper">
         <div class="close-button" onclick="PopUpRequestHide()">
-            <img src="<?php echo get_stylesheet_directory_uri() ?>./assets/images/close_button.svg" alt="">
+            <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/close_button.svg" alt="">
         </div>
         <form action="#" class="request-form">
             <label for="name">Ваше имя</label><br>
@@ -671,14 +669,13 @@
             <input type="email" name="email"><br>
             <label for="message_text">Текст обращения</label><br>
             <textarea name="message_text" cols="36" rows="5"></textarea>
-            <input type="submit" class="request" value="Отправить">
+            <button type="submit" class="request">Отправить</button>
         </form>
     </div>
-<?php wp_footer() ?>
     <script src="/node_modules/simple-parallax-js/dist/simpleParallax.js"></script>
-    <script src="<?php echo get_stylesheet_directory_uri() ?>./assets/js/main.js"></script>
-    <script src="<?php echo get_stylesheet_directory_uri() ?>./assets/js/parallax.js"></script>
-
+    <script src="<?php echo get_stylesheet_directory_uri() ?>/assets/js/main.js"></script>
+    <!--<script src="<?php echo get_stylesheet_directory_uri() ?>/assets/js/parallax.js"></script>-->
+    <?php wp_footer() ?>
 </body>
 
 </html>
