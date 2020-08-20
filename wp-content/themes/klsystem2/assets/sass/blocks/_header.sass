@@ -1,0 +1,147 @@
+header
+  background: #070618 url("assets/images/background2.png") repeat
+  color: #fff
+
+.navbar
+  &-wrap
+    display: flex
+    justify-content: space-around
+    align-items: center
+    min-height: 155px
+  &__logo
+    margin-right: 330px
+    margin-top: 11px
+    min-width: 418px
+    min-height: 55px
+    img
+      max-width: 100%
+  &__info
+    font-size: 36px
+    font-weight: bold
+    margin-right: 68px
+    color: #fff
+    a
+      color: #fff
+      text-decoration: none
+  &__telegram
+    margin-right: 65px
+    max-width: 60px
+    min-width: 60px
+    max-height: 61px
+    min-height: 61px
+
+.menu-button
+  background: none
+  outline: none
+  border: none
+  cursor: pointer
+  max-width: 76px
+  min-width: 76px
+  max-height: 40px
+  min-height: 40px
+.menu-line
+  background: #070618 url("assets/images/background2.png") repeat
+  color: #fff
+.menu
+  margin: auto
+  width: 100%
+
+  &__nav
+    display: flex
+    justify-content: space-around
+    align-items: center
+
+  &__link
+    text-decoration: none
+    font-size: 20px
+    border-top: 2px solid #003558
+    padding: 15px 0
+    display: inline-block
+    flex: 1 1 auto
+    text-align: center
+    color: #003558
+
+    &:hover
+      border-top: 2px solid #005086
+      color: #005086
+    &.active
+      border-top: 2px solid #00acee
+      color: #00acee
+
+@media (max-width: 1700px)
+  .navbar
+    &__logo
+      margin-right: 270px
+
+@media (max-width: 1700px)
+  .navbar
+    &__logo
+      margin-right: 150px
+
+
+@media (max-width: 1488px)
+  .navbar
+    &__logo
+      margin-right: 30px
+    &__info,&__telegram
+      margin-right: 10px
+
+@media (max-width: 1220px)
+  .navbar
+    &__info
+      font-size: 26px
+
+@media (max-width: 1130px)
+  .navbar
+    &__logo
+      min-width: 308px
+      max-width: 308px
+      min-height: 39px
+      max-height: 39px
+    &__telegram
+      min-height: 40px
+      max-height: 40px
+      min-width: 40px
+      max-width: 40px
+  .menu-button
+    min-width: 56px
+    max-width: 56px
+    min-height: 30px
+    max-height: 30px
+
+@media (max-width: 1024px)
+  .menu-line
+    display: none
+
+@media (max-width: 972px)
+  .navbar
+    &__email
+      display: none
+    &__logo
+      margin-top: 5px
+
+@media (max-width: 700px)
+  .navbar
+    &__logo
+      min-width: 166px
+      max-width: 166px
+      min-height: 17px
+      max-height: 17px
+      margin-top: 0
+      margin-right: 0
+    &__telegram
+      min-height: 30px
+      max-height: 30px
+      min-width: 30px
+      max-width: 30px
+    &__phone
+      font-size: 20px
+  .menu-button
+    min-width: 46px
+    max-width: 46px
+    min-height: 20px
+    max-height: 20px
+
+@media (max-width: 450px)
+  .navbar__info
+    display: none

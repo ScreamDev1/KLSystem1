@@ -1,0 +1,33 @@
+.about-us_advantages_row
+  display: flex
+  flex-direction: row
+  justify-content: space-between
+  margin-top: 90px
+  .advantages_item
+    margin-right: 60px
+    max-width: 400px
+    .advantages_item-heading
+      border-bottom: 2px solid #003559
+      .advantage_name
+        display: inline-block
+        width: 200px
+        font-size: 26px
+        font-weight: 700
+        margin-left: 20px
+        margin-bottom: 15px
+
+@media (max-width: 850px)
+  .about-us_advantages_row
+    margin-top: 50px
+    .advantages_item
+      margin-right: 30px
+      .advantages_item-heading
+        .advantage_name
+          font-size: 20px
+          margin-left: 0
+      p
+         font-size: 18px
+
+@media (max-width: 700px)
+  .about-us_advantages_row
+    flex-direction: column

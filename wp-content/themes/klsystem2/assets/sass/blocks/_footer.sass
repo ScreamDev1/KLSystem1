@@ -1,0 +1,69 @@
+.footer
+  background: url("assets/images/background2.png") repeat, #070618 url("assets/images/footer_background.png") no-repeat 0 70px
+  color: #fff
+  padding-top: 58px
+  padding-bottom: 100px
+  &-wrap
+    display: flex
+    justify-content: space-between
+  &__item
+    display: flex
+    justify-content: space-between
+    flex-direction: column
+  &__copywrite
+    font-size: 24px
+  &__link
+    font-size: 36px
+    font-weight: 500
+    color: #fff
+    text-decoration: none
+    line-height: 1.9em
+    &__bold
+      font-weight: 700
+  &__logo
+    margin-bottom: 20px
+    max-width: 418px
+    max-height: 40px
+    min-width: 418px
+    min-height: 40px
+    img
+      max-width: 100%
+.logo_caption
+  flex-grow: 1
+
+@media (max-width: 1600px)
+  .footer
+    &__item:nth-child(2)
+      display: none
+
+@media (max-width: 1400px)
+  .footer
+    &-wrap
+      justify-content: space-around
+    &__item:nth-child(3)
+      display: none
+@media (max-width: 800px)
+  .logo_caption
+    display: none
+  .footer
+    padding-top: 20px
+    padding-bottom: 20px
+    background-image: none
+    &__item
+     display: none
+    &__item:first-child
+      display: flex
+      flex-direction: row
+      justify-content: space-between
+      width: 100%
+
+    &__logo
+      margin-bottom: 0
+      max-width: 182px
+      max-height: 16px
+      min-width: 182px
+      min-height: 16px
+    &__copywrite
+      font-size: 12px
+      margin-right: 20px
+      font-weight: 500

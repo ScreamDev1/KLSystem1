@@ -1,0 +1,66 @@
+.ip_telephone
+  background: #070618 url("assets/images/background2.png") repeat
+  color: #fff
+  .features
+     &__item
+      max-width: 235px
+  .details-button
+    background: -moz-linear-gradient(180deg, rgba(140, 198, 63, 0) 55%,rgba(140, 198, 63, 0.09) 65%,rgba(140, 198, 63, 0.50) 90%,rgba(140, 198, 63, 0.6) 95%,rgba(140, 198, 63, 0.8))
+    background: linear-gradient(180deg, rgba(140, 198, 63, 0) 55%,rgba(140, 198, 63, 0.09) 65%,rgba(140, 198, 63, 0.50) 90%,rgba(140, 198, 63, 0.6) 95%,rgba(140, 198, 63, 0.8))
+    color: #fff
+    box-shadow: none
+    position: relative
+    z-index: 2
+
+  .details-button:after
+    content: ''
+    position: absolute
+    top: -2px
+    left: -2px
+    width: 430px
+    height: 106px
+    background: -moz-linear-gradient(180deg, rgba(140, 198, 63, 0) 15%, rgba(140, 198, 63, 0.5) 65%, rgba(140, 198, 63, 0.8) 90%, rgba(140, 198, 63, 0.9) 95%, rgb(140, 198, 63))
+    background: linear-gradient(180deg, rgba(140, 198, 63, 0) 15%, rgba(140, 198, 63, 0.5) 65%, rgba(140, 198, 63, 0.8) 90%, rgba(140, 198, 63, 0.9) 95%, rgb(140, 198, 63))
+    opacity: 0
+    transition: opacity 0.5s
+
+  .details-button:hover:after
+    opacity: 1
+    z-index: -2
+
+  .green-on-white:hover
+    background: -moz-linear-gradient(180deg, rgba(140, 198, 63, 0) 55%,rgba(140, 198, 63, 0.09) 65%,rgba(140, 198, 63, 0.50) 90%,rgba(140, 198, 63, 0.6) 95%,rgba(140, 198, 63, 0.8))
+    background: linear-gradient(180deg, rgba(140, 198, 63, 0) 55%,rgba(140, 198, 63, 0.09) 65%,rgba(140, 198, 63, 0.50) 90%,rgba(140, 198, 63, 0.6) 95%,rgba(140, 198, 63, 0.8))
+
+  .details-button:active
+    background: #8CC63F
+
+  .parallax-wrapper
+    position: relative
+    top: -450px
+    //left: 1520px
+    left: 1920px
+    margin-bottom: -540px
+
+  .paralax-item
+    position: relative
+
+@media (max-width: 1440px)
+  .ip_telephone
+    .parallax-wrapper
+      top: -320px
+      left: 1220px
+      margin-bottom: -350px
+      img
+        width: 350px
+
+@media (max-width: 1300px)
+  .ip_telephone
+    .parallax-wrapper
+      left: 1120px
+
+@media (max-width: 700px)
+  .ip_telephone
+    .details-button:after
+      width: 195px
+      height: 52px

@@ -1,0 +1,77 @@
+*
+  box-sizing: border-box
+  -webkit-box-sizing: border-box
+
+
+.container__header
+  max-width: 1680px
+  margin: auto
+.container
+  max-width: 1322px
+  margin: auto
+.barcode
+  display: flex
+  flex-direction: row
+  justify-content: flex-end
+  &__mobile
+    display: none
+
+  img
+    width: 1267px
+    height: 70px
+.dark-bg
+  background: #070618 url("assets/images/background.png") repeat
+  background-blend-mode: normal
+
+
+.section-info
+  padding-top: 125px
+  padding-bottom: 100px
+
+@media (max-width: 1500px)
+  .container__header
+    max-width: 1450px
+  .container
+    max-width: 1450px
+    padding: 0 20px
+
+
+@media (max-width: 1024px)
+  .container__header
+    max-width: 960px
+  .container
+    max-width: 960px
+
+
+@media (max-width: 700px)
+  .container__header
+    max-width: 650px
+  .container
+    max-width: 650px
+  .section-info
+    padding-top: 62px
+    padding-bottom: 50px
+  .barcode
+    display: none
+    &__mobile
+      display: flex
+      flex-direction: row
+      justify-content: flex-end
+  .parallax-wrapper
+    display: none
+
+@media (max-width: 600px)
+  .container__header
+    max-width: 550px
+  .container
+    max-width: 550px
+    padding: 0 20px
+
+@media (max-width: 500px)
+  .container__header
+    max-width: 450px
+  .container
+    max-width: 450px
+    padding: 0 10px
+@media (max-width: 400px)
+

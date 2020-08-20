@@ -1,0 +1,138 @@
+.zabbix
+  background: none
+  color: #000
+  padding-bottom: 130px
+
+  .parallax-wrapper
+    position: relative
+    top: 160px
+    //left: 1420px
+    left: 1820px
+    margin-top: -656px
+
+  .paralax-item
+    position: relative
+
+.section-heading
+  &__main
+    font-size: 100px
+    font-weight: 500
+    margin-right: 80px
+  &__sub
+    font-size: 36px
+    font-weight: 800
+    text-transform: uppercase
+.section-description
+  font-size: 34px
+  margin-top: 100px
+  line-height: 1.4em
+
+.features
+  margin-top: 65px
+  display: flex
+  justify-content: space-between
+  text-align: left
+  &__item
+    width: 345px
+    margin-bottom: 155px
+    &__header
+      font-size: 40px
+      font-weight: 500
+      color: #00acee
+      line-height: 1.2em
+    &__desc
+      display: inline-block
+      font-size: 22px
+      margin-top: 35px
+      line-height: 1.4em
+
+
+
+@media (max-width: 1440px)
+  .section-heading
+    &__main
+      font-size: 80px
+    &__sub
+      font-size: 30px
+  .section-description
+    font-size: 28px
+    margin-top: 70px
+
+  .zabbix
+    .parallax-wrapper
+      top: 120px
+      left: 1120px
+      margin-top: -433px
+      img
+        width: 433px
+
+@media (max-width: 1300px)
+  .zabbix
+    .parallax-wrapper
+      top: 120px
+      left: 1020px
+      margin-top: -433px
+      img
+        width: 433px
+
+@media (max-width: 1000px)
+  .section-description
+    font-size: 24px
+    margin-top: 40px
+
+  .section-heading__main
+    margin-right: 0
+    font-size: 55px
+    display: block
+    word-wrap: break-word
+
+  .section-heading__sub
+    display: block
+    font-size: 21px
+    margin-top: 20px
+
+  .features
+    margin-right: 0
+    margin-bottom: 0
+    flex-wrap: wrap
+
+    &__item
+      margin-bottom: 0
+      min-width: 460px
+      padding: 20px 30px 20px 30px
+      height: 100%
+
+      &__header
+        margin-bottom: 0
+        display: flex
+        justify-content: space-between
+        cursor: pointer
+        -webkit-touch-callout: none
+        -webkit-user-select: none
+        -khtml-user-select: none
+        -moz-user-select: none
+        -ms-user-select: none
+        user-select: none
+
+      &__header:after
+        content: url("assets/images/toggle_icon.png")
+        width: 15px
+        height: 18px
+        font-size: 0
+        margin-top: 20px
+        padding-left: 0
+        margin-left: 52px
+
+      &__header.active:after
+        content: url("assets/images/toggle_icon.png")
+        transform: rotate(90deg)
+        width: 15px
+        height: 18px
+        padding-left: 0
+      &__desc
+        display: none
+
+@media (max-width: 450px)
+  .features__item
+    padding: 20px 50px 20px 5px
+    min-width: 420px
